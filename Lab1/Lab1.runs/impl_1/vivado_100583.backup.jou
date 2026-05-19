@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon May 18 15:24:43 2026
+# Process ID         : 100583
+# Current directory  : /home/nhanenten/Desktop/HW_SW/Lab1/Lab1.runs/impl_1
+# Command line       : vivado -log blinking_led_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source blinking_led_wrapper.tcl -notrace
+# Log file           : /home/nhanenten/Desktop/HW_SW/Lab1/Lab1.runs/impl_1/blinking_led_wrapper.vdi
+# Journal file       : /home/nhanenten/Desktop/HW_SW/Lab1/Lab1.runs/impl_1/vivado.jou
+# Running On         : NhanEnten
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1335U
+# CPU Frequency      : 4375.798 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16383 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 16383 MB
+# Available Virtual  : 10337 MB
+#-----------------------------------------------------------
+source blinking_led_wrapper.tcl -notrace
