@@ -1,0 +1,225 @@
+10:21:37 INFO  : updated workspace path: /home/nhanenten/Desktop/HW_SW/Lab2
+10:21:37 INFO  : Marking the target connection as default Local
+10:21:37 INFO  : Marking the target connection as default Linux Agent
+10:21:37 INFO  : Marking the target connection as default XRTServer
+10:21:37 INFO  : Marking the target connection as default LinuxEmulation
+10:21:37 INFO  : Marking the target connection as default QEMU
+10:21:37 INFO  : bash, -c, empyro repo -st   /home/nhanenten/2025.2/Vitis/data/embeddedsw
+10:21:37 INFO  : Platform platform_2d creation started.
+10:21:37 INFO  : Using sdt generation script from /home/nhanenten/2025.2/Vitis/vitis-server/scripts/platformutil.tcl
+10:21:37 INFO  : bash, -c, sdtgen /home/nhanenten/2025.2/Vitis/vitis-server/scripts/platformutil.tcl /home/nhanenten/Desktop/HW_SW/Lab2/design_2.xsa /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt
+10:21:39 INFO  : [INFO]: Initializing repositories
+10:21:39 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+10:21:39 INFO  : Successfully created repository data at /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata
+10:21:39 INFO  : bash, -c, empyro get_template_data -d /tmp/rigel_lopper_nhanenten3090624289215104901 -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:40 INFO  : Embedded Template List generated successfully
+10:21:43 INFO  : INFO: /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt exists. Files will be overwritten
+10:21:43 INFO  : -xsa /home/nhanenten/Desktop/HW_SW/Lab2/design_2.xsa
+10:21:43 INFO  : -dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt
+10:21:43 INFO  : -board_dts 
+10:21:43 INFO  : -include_dts 
+10:21:43 INFO  : -repo /home/nhanenten/2025.2/data/system-device-tree-xlnx
+10:21:43 INFO  : -zocl disable
+10:21:43 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (/home/nhanenten/2025.2/data/embeddedsw) loading 0 seconds
+10:21:43 INFO  : SDT generated successfully
+10:21:43 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts
+10:21:43 INFO  : bash, -c, lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts
+10:21:45 INFO  : CPU List generated successfully
+10:21:45 INFO  : SDT generated successfully.
+10:21:45 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt
+10:21:45 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+10:21:45 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+10:21:45 INFO  : lopper command to generate BSP :empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts -t empty_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:45 INFO  : lopper command to generate BSP :empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts -t zynq_fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:45 INFO  : bash, -c, empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts -t empty_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:45 INFO  : bash, -c, empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/hw/sdt/system-top.dts -t zynq_fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:58 INFO  : [INFO]: Starting domain creation
+10:21:58 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+10:21:58 INFO  : [INFO]: Generating required metadata from domain specific DT
+10:21:58 INFO  : [INFO]: Successfully created Domain at /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:21:58 INFO  : Successfully Generated Domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:21:58 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+10:21:59 INFO  : [INFO]: Starting domain creation
+10:21:59 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+10:21:59 INFO  : [INFO]: Generating required metadata from domain specific DT
+10:21:59 INFO  : [INFO]: Successfully created Domain at /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:21:59 INFO  : Successfully Generated Domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:21:59 INFO  : lopper command to create baremetal application :empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -n fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:21:59 INFO  : bash, -c, empyro validate_bsp -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:01 INFO  : Successfully validated template zynq_fsbl
+10:22:01 INFO  : bash, -c, empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -n fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:02 INFO  : Using sdt generation script from /home/nhanenten/2025.2/Vitis/vitis-server/scripts/platformutil.tcl
+10:22:02 INFO  : bash, -c, sdtgen /home/nhanenten/2025.2/Vitis/vitis-server/scripts/platformutil.tcl /home/nhanenten/Desktop/HW_SW/Lab2/design_2.xsa /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper_temp_platform/design_2/hw/sdt
+10:22:05 INFO  : [INFO]: Generating Linker script for zynq_fsbl
+10:22:05 INFO  : [INFO]: Successfully Created Application sources at /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl
+10:22:05 INFO  : Successfully created Application /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl
+10:22:05 INFO  : Platform FSBL Boot domain added successfully.
+10:22:05 INFO  : created .gitignore file for the project /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d
+10:22:05 INFO  : Platform creation finished successfully.
+10:22:05 INFO  : Platform Quick Build initiated.
+10:22:05 INFO  : Generating Export directory
+10:22:05 INFO  : Generated platform metadata for creating application(s) based on platform platform_2d.
+10:22:08 INFO  : INFO: /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper_temp_platform/design_2/hw/sdt exists. Files will be overwritten
+10:22:08 INFO  : -xsa /home/nhanenten/Desktop/HW_SW/Lab2/design_2.xsa
+10:22:08 INFO  : -dir /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper_temp_platform/design_2/hw/sdt
+10:22:08 INFO  : -board_dts 
+10:22:08 INFO  : -include_dts 
+10:22:08 INFO  : -repo /home/nhanenten/2025.2/data/system-device-tree-xlnx
+10:22:08 INFO  : -zocl disable
+10:22:08 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (/home/nhanenten/2025.2/data/embeddedsw) loading 1 seconds
+10:22:08 INFO  : SDT generated successfully
+10:22:08 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper_temp_platform/design_2/hw/sdt/system-top.dts
+10:22:08 INFO  : bash, -c, lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper_temp_platform/design_2/hw/sdt/system-top.dts
+10:22:10 INFO  : CPU List generated successfully
+10:22:12 INFO  : Platform platform creation started.
+10:22:12 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts
+10:22:12 INFO  : bash, -c, lopper --enhanced --werror -f -O /home/nhanenten/Desktop/HW_SW/Lab2/.rigel_lopper -i lop-cpu-oslist.dts /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts
+10:22:14 INFO  : CPU List generated successfully
+10:22:14 INFO  : SDT generated successfully.
+10:22:14 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt
+10:22:14 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+10:22:14 INFO  : ZYNQ: Using the QEMU args from install at  : /home/nhanenten/2025.2/Vitis/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+10:22:14 INFO  : lopper command to generate BSP :empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts -t empty_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:14 INFO  : lopper command to generate BSP :empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts -t zynq_fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:14 INFO  : bash, -c, empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts -t zynq_fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:14 INFO  : bash, -c, empyro create_bsp -w /home/nhanenten/Desktop/HW_SW/Lab2/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp -p ps7_cortexa9_0 -o standalone -s /home/nhanenten/Desktop/HW_SW/Lab2/platform/hw/sdt/system-top.dts -t empty_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:27 INFO  : [INFO]: Starting domain creation
+10:22:27 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+10:22:27 INFO  : [INFO]: Generating required metadata from domain specific DT
+10:22:27 INFO  : [INFO]: Successfully created Domain at /home/nhanenten/Desktop/HW_SW/Lab2/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:22:27 INFO  : Successfully Generated Domain /home/nhanenten/Desktop/HW_SW/Lab2/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:22:27 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+10:22:29 INFO  : [INFO]: Starting domain creation
+10:22:29 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+10:22:29 INFO  : [INFO]: Generating required metadata from domain specific DT
+10:22:29 INFO  : [INFO]: Successfully created Domain at /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp
+10:22:29 INFO  : Successfully Generated Domain /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp
+10:22:29 INFO  : lopper command to create baremetal application :empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp -n fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:29 INFO  : bash, -c, empyro validate_bsp -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:30 INFO  : Successfully validated template zynq_fsbl
+10:22:30 INFO  : bash, -c, empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl -t zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl/zynq_fsbl_bsp -n fsbl -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:22:34 INFO  : [INFO]: Generating Linker script for zynq_fsbl
+10:22:34 INFO  : [INFO]: Successfully Created Application sources at /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl
+10:22:34 INFO  : Successfully created Application /home/nhanenten/Desktop/HW_SW/Lab2/platform/zynq_fsbl
+10:22:34 INFO  : Platform FSBL Boot domain added successfully.
+10:22:34 INFO  : created .gitignore file for the project /home/nhanenten/Desktop/HW_SW/Lab2/platform
+10:22:34 INFO  : Platform creation finished successfully.
+10:22:34 INFO  : Platform Quick Build initiated.
+10:22:34 INFO  : Generating Export directory
+10:22:34 INFO  : Generated platform metadata for creating application(s) based on platform platform.
+10:23:17 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:23:18 INFO  : Successfully validated template empty_application
+10:23:20 INFO  : lopper command to create baremetal application :empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -n timer_interrupt -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:23:20 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:23:20 INFO  : Successfully validated template empty_application
+10:23:20 INFO  : bash, -c, empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -n timer_interrupt -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:23:24 INFO  : [INFO]: Generating Linker script for empty_application
+10:23:24 INFO  : [INFO]: Successfully Created Application sources at /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src
+10:23:24 INFO  : Successfully created Application /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src
+10:23:24 INFO  : created .gitignore file for the project /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt
+10:23:24 INFO  : The hardware specification used by project '/home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:23:24 INFO  : The updated bitstream files are copied from platform to folder '/home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/_ide/bitstream' in project '/home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt'.
+10:23:24 INFO  : The updated ps init files are copied from platform to folder '/home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/_ide/psinit' in project '/home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt'.
+10:25:22 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:25:22 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:25:22 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:22 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:22 INFO  : lopper command to reconfigure BSP :empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:22 INFO  : lopper command to reconfigure BSP :empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:22 INFO  : bash, -c, empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:22 INFO  : bash, -c, empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:23 INFO  : Domain reconfigured successfully
+10:25:23 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:23 INFO  : lopper command to build BSP :empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:23 INFO  : bash, -c, empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:25:23 INFO  : Domain reconfigured successfully
+10:25:23 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:23 INFO  : lopper command to build BSP :empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:23 INFO  : bash, -c, empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:25:29 INFO  : Domain build successfully
+10:25:30 INFO  : Domain build successfully
+10:25:30 INFO  : Generating Boot ELFs
+10:25:30 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -b /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:25:30 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -b /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:25:31 INFO  : [INFO]: Retargeting app
+10:25:31 INFO  : [INFO]: Updating link libraries based on new domain
+10:25:31 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl
+10:25:31 INFO  : lopper command to build baremetal application :empyro build_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl --build_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:25:31 INFO  : bash, -c, empyro build_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl --build_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:25:34 INFO  : Successfully building the baremetal application/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:25:34 INFO  : Generating Export directory
+10:25:34 INFO  : Platform Build Finished successfully.
+10:25:47 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/build
+10:25:47 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/build
+10:25:47 INFO  : [INFO]: Retargeting app
+10:25:47 INFO  : [INFO]: Updating link libraries based on new domain
+10:25:47 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src
+10:25:47 INFO  : Initiating build for the timer_interrupt component.
+10:25:47 INFO  : bash, -c, empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -b /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/build
+10:25:47 INFO  : Command: bash -c unset CC CXX ;empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/src -b /home/nhanenten/Desktop/HW_SW/Lab2/timer_interrupt/build
+10:28:14 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:28:15 INFO  : Successfully validated template empty_application
+10:28:19 INFO  : lopper command to create baremetal application :empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -n Timer_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:28:19 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:28:20 INFO  : Successfully validated template empty_application
+10:28:20 INFO  : bash, -c, empyro create_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -t empty_application -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -n Timer_application -r /home/nhanenten/Desktop/HW_SW/Lab2/_ide/.wsdata/.repo.yaml
+10:28:23 INFO  : [INFO]: Generating Linker script for empty_application
+10:28:23 INFO  : [INFO]: Successfully Created Application sources at /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src
+10:28:23 INFO  : Successfully created Application /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src
+10:28:23 INFO  : created .gitignore file for the project /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application
+10:28:23 INFO  : The hardware specification used by project '/home/nhanenten/Desktop/HW_SW/Lab2/Timer_application' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:28:23 INFO  : The updated bitstream files are copied from platform to folder '/home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/_ide/bitstream' in project '/home/nhanenten/Desktop/HW_SW/Lab2/Timer_application'.
+10:28:23 INFO  : The updated ps init files are copied from platform to folder '/home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/_ide/psinit' in project '/home/nhanenten/Desktop/HW_SW/Lab2/Timer_application'.
+10:28:31 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:28:31 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:28:31 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:31 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:31 INFO  : lopper command to reconfigure BSP :empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:31 INFO  : lopper command to reconfigure BSP :empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:31 INFO  : bash, -c, empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:31 INFO  : bash, -c, empyro reconfig_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:31 INFO  : Domain reconfigured successfully
+10:28:31 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:31 INFO  : lopper command to build BSP :empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:31 INFO  : bash, -c, empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+10:28:32 INFO  : Domain reconfigured successfully
+10:28:32 INFO  : Generating BSP for the domain /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:32 INFO  : lopper command to build BSP :empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:32 INFO  : bash, -c, empyro build_bsp -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp
+10:28:32 INFO  : Domain build successfully
+10:28:32 INFO  : Domain build successfully
+10:28:32 INFO  : Generating Boot ELFs
+10:28:32 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -b /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:28:32 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/zynq_fsbl_bsp -b /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:28:33 INFO  : [INFO]: Retargeting app
+10:28:33 INFO  : [INFO]: Updating link libraries based on new domain
+10:28:33 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl
+10:28:33 INFO  : lopper command to build baremetal application :empyro build_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl --build_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:28:33 INFO  : bash, -c, empyro build_app --src_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl --build_dir /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:28:34 INFO  : Successfully building the baremetal application/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build
+10:28:34 INFO  : Generating Export directory
+10:28:35 INFO  : Platform Build Finished successfully.
+10:30:10 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:10 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:10 INFO  : [INFO]: Retargeting app
+10:30:10 INFO  : [INFO]: Updating link libraries based on new domain
+10:30:10 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src
+10:30:10 INFO  : Initiating build for the Timer_application component.
+10:30:10 INFO  : bash, -c, empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:10 INFO  : Command: bash -c unset CC CXX ;empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:19 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:19 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:20 INFO  : [INFO]: Retargeting app
+10:30:20 INFO  : [INFO]: Updating link libraries based on new domain
+10:30:20 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src
+10:30:20 INFO  : Initiating build for the Timer_application component.
+10:30:20 INFO  : Command: bash -c unset CC CXX ;cmake --build ./ --target clean --verbose
+10:30:23 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:23 INFO  : bash, -c, empyro retarget_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -d /home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/export/platform_2d/sw/standalone_ps7_cortexa9_0 -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:23 INFO  : [INFO]: Retargeting app
+10:30:23 INFO  : [INFO]: Updating link libraries based on new domain
+10:30:23 INFO  : Successfully retargeted Application /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src
+10:30:23 INFO  : Initiating build for the Timer_application component.
+10:30:23 INFO  : bash, -c, empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:30:23 INFO  : Command: bash -c unset CC CXX ;empyro build_app -s /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/src -b /home/nhanenten/Desktop/HW_SW/Lab2/Timer_application/build
+10:51:36 INFO  : connection terminated

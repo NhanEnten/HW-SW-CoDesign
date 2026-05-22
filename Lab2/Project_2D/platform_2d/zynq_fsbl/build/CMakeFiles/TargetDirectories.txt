@@ -1,0 +1,4 @@
+/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+/home/nhanenten/Desktop/HW_SW/Lab2/platform_2d/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
