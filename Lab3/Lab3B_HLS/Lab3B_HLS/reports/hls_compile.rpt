@@ -1,0 +1,146 @@
+
+
+================================================================
+== Synthesis Summary Report of 'matmul'
+================================================================
++ General Information: 
+    * Date:           Mon May 25 15:14:41 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        Lab3B_HLS
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
+* Performance & Resource Estimates: 
++-------------------------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+----------+-----+
+|                     Modules                     | Issue|               | Iteration|         | Trip |          |       Latency       |      |      |        |          |          |     |
+|                     & Loops                     | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack| BRAM |   DSP  |    FF    |    LUT   | URAM|
++-------------------------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+----------+-----+
+|+ matmul                                         |     -|              -|         -|     4096|     -|    rewind|     4101|  4.101e+04|  0.39|     -|  3 (3%)|  645 (1%)|  641 (3%)|    -|
+| o VITIS_LOOP_6_1_VITIS_LOOP_7_2_VITIS_LOOP_9_3  |     -|              -|         5|        1|  4096|       yes|     4099|  4.099e+04|  7.30|     -|       -|         -|         -|    -|
++-------------------------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++----------------+-----------+----------+
+| Port           | Direction | Bitwidth |
++----------------+-----------+----------+
+| in1_address0   | out       | 8        |
+| in1_q0         | in        | 32       |
+| in2_address0   | out       | 8        |
+| in2_q0         | in        | 32       |
+| out_r_address0 | out       | 8        |
+| out_r_d0       | out       | 32       |
++----------------+-----------+----------+
+
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| size | ap_none | in        | 32       |
++------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| in1      | in        | int*     |
+| in2      | in        | int*     |
+| out      | out       | int*     |
+| size     | in        | int      |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+----------------+---------+----------+
+| Argument | HW Interface   | HW Type | HW Usage |
++----------+----------------+---------+----------+
+| in1      | in1_address0   | port    | offset   |
+| in1      | in1_ce0        | port    |          |
+| in1      | in1_q0         | port    |          |
+| in2      | in2_address0   | port    | offset   |
+| in2      | in2_ce0        | port    |          |
+| in2      | in2_q0         | port    |          |
+| out      | out_r_address0 | port    | offset   |
+| out      | out_r_ce0      | port    |          |
+| out      | out_r_we0      | port    |          |
+| out      | out_r_d0       | port    |          |
+| size     | size           | port    |          |
++----------+----------------+---------+----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------+-----+--------+--------------+--------+----------+---------+
+| Name                     | DSP | Pragma | Variable     | Op     | Impl     | Latency |
++--------------------------+-----+--------+--------------+--------+----------+---------+
+| + matmul                 | 3   |        |              |        |          |         |
+|   add_ln6_fu_227_p2      |     |        | add_ln6      | add    | fabric   | 0       |
+|   select_ln6_fu_233_p3   |     |        | select_ln6   | select | auto_sel | 0       |
+|   xor_ln6_fu_241_p2      |     |        | xor_ln6      | xor    | auto     | 0       |
+|   and_ln6_fu_247_p2      |     |        | and_ln6      | and    | auto     | 0       |
+|   i_3_fu_253_p3          |     |        | i_3          | select | auto_sel | 0       |
+|   add_ln7_fu_265_p2      |     |        | add_ln7      | add    | fabric   | 0       |
+|   empty_fu_271_p2        |     |        | empty        | or     | auto     | 0       |
+|   k_mid2_fu_277_p3       |     |        | k_mid2       | select | auto_sel | 0       |
+|   sum_mid2_fu_413_p3     |     |        | sum_mid2     | select | auto_sel | 0       |
+|   j_3_fu_289_p3          |     |        | j_3          | select | auto_sel | 0       |
+|   add_ln15_fu_309_p2     |     |        | add_ln15     | add    | fabric   | 0       |
+|   add_ln12_fu_319_p2     |     |        | add_ln12     | add    | fabric   | 0       |
+|   add_ln12_1_fu_338_p2   |     |        | add_ln12_1   | add    | fabric   | 0       |
+|   icmp_ln11_fu_353_p2    |     |        | icmp_ln11    | setlt  | auto     | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln12     | mul    | auto     | 1       |
+|   sum_4_fu_424_p2        |     |        | sum_4        | add    | fabric   | 0       |
+|   sum_1_fu_429_p3        |     |        | sum_1        | select | auto_sel | 0       |
+|   k_3_fu_358_p2          |     |        | k_3          | add    | fabric   | 0       |
+|   icmp_ln9_fu_364_p2     |     |        | icmp_ln9     | seteq  | auto     | 0       |
+|   add_ln6_1_fu_198_p2    |     |        | add_ln6_1    | add    | fabric   | 0       |
+|   add_ln7_1_fu_370_p2    |     |        | add_ln7_1    | add    | fabric   | 0       |
+|   select_ln7_1_fu_376_p3 |     |        | select_ln7_1 | select | auto_sel | 0       |
+|   icmp_ln7_fu_384_p2     |     |        | icmp_ln7     | seteq  | auto     | 0       |
+|   icmp_ln6_fu_204_p2     |     |        | icmp_ln6     | seteq  | auto     | 0       |
++--------------------------+-----+--------+--------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++--------------+---------+----------------------------------------------------------------+------------------------+
+| Type         | Options | Location                                                       | Inferred From          |
++--------------+---------+----------------------------------------------------------------+------------------------+
+| LOOP_FLATTEN |         | loop VITIS_LOOP_7_2 (matmul.cpp:7:19) in matmul (matmul.cpp:7) | pipeline matmul.cpp:10 |
+| LOOP_FLATTEN |         | loop VITIS_LOOP_6_1 (matmul.cpp:6:18) in matmul (matmul.cpp:6) | pipeline matmul.cpp:10 |
++--------------+---------+----------------------------------------------------------------+------------------------+
+
+* Valid Pragma Syntax
++----------+---------+---------------------------+
+| Type     | Options | Location                  |
++----------+---------+---------------------------+
+| PIPELINE |         | in matmul (matmul.cpp:10) |
++----------+---------+---------------------------+
+
+

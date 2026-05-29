@@ -1,0 +1,388 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon May 25 15:19:08 2026
+# Process ID         : 47070
+# Current directory  : /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1
+# Command line       : vivado -log bd_0_hls_inst_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_hls_inst_0.tcl
+# Log file           : /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.vds
+# Journal file       : /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/vivado.jou
+# Running On         : NhanEnten
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1335U
+# CPU Frequency      : 400.348 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16383 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 16383 MB
+# Available Virtual  : 7885 MB
+#-----------------------------------------------------------
+source bd_0_hls_inst_0.tcl -notrace
+INFO: Dispatch client connection id - 33085
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/nhanenten/2025.2/data/ip'.
+Command: synth_design -top bd_0_hls_inst_0 -part xc7z010clg400-1 -directive sdx_optimization_effort_high -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 47105
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2240.910 ; gain = 483.875 ; free physical = 338 ; free virtual = 6387
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'matmul' [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul.v:9]
+INFO: [Synth 8-6157] synthesizing module 'matmul_mul_32s_32s_32_2_1' [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'matmul_mul_32s_32s_32_2_1' (0#1) [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'matmul_flow_control_loop_delay_pipe' [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul_flow_control_loop_delay_pipe.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'matmul_flow_control_loop_delay_pipe' (0#1) [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul_flow_control_loop_delay_pipe.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'matmul' (0#1) [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/47c6/hdl/verilog/matmul.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+INFO: [Synth 8-7129] Port ap_done_int in module matmul_flow_control_loop_delay_pipe is either unconnected or has no load
+INFO: [Synth 8-7129] Port reset in module matmul_mul_32s_32s_32_2_1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2332.848 ; gain = 575.812 ; free physical = 219 ; free virtual = 6268
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2341.754 ; gain = 584.719 ; free physical = 209 ; free virtual = 6258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2341.754 ; gain = 584.719 ; free physical = 209 ; free virtual = 6258
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2341.754 ; gain = 0.000 ; free physical = 209 ; free virtual = 6258
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/matmul_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/matmul_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2458.492 ; gain = 0.000 ; free physical = 202 ; free virtual = 6250
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2458.527 ; gain = 0.000 ; free physical = 195 ; free virtual = 6243
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2458.527 ; gain = 701.492 ; free physical = 225 ; free virtual = 6252
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2466.496 ; gain = 709.461 ; free physical = 225 ; free virtual = 6252
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2466.496 ; gain = 709.461 ; free physical = 225 ; free virtual = 6252
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2466.496 ; gain = 709.461 ; free physical = 221 ; free virtual = 6248
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                1 Bit    Registers := 25    
++---Multipliers : 
+	              32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U1/buff0_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register mul_32s_32s_32_2_1_U1/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/tmp_product.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U1/buff0_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register mul_32s_32s_32_2_1_U1/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+DSP Report: operator mul_32s_32s_32_2_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U1/buff0_reg.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[47]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[46]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[45]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[44]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[43]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[42]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[41]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[40]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[39]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[38]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[37]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[36]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[35]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[34]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[33]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[32]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[31]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[30]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[29]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[28]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[27]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[26]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[25]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[24]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[23]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[22]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[21]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[20]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[19]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[18]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[17]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[16]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[15]) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[47]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[46]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[45]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[44]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[43]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[42]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[41]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[40]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[39]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[38]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[37]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[36]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[35]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[34]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[33]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[32]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[31]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[30]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[29]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[28]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[27]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[26]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[25]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[24]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[23]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[22]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[21]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[20]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[19]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[18]__0) is unused and will be removed from module matmul.
+INFO: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U1/buff0_reg[17]__0) is unused and will be removed from module matmul.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2466.496 ; gain = 709.461 ; free physical = 211 ; free virtual = 6234
+---------------------------------------------------------------------------------
+ Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_0 : 0 0 : 3101 5802 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_0 : 0 1 : 2701 5802 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_3 : 0 0 : 2634 5167 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U1/tmp_product_3 : 0 1 : 2533 5167 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|matmul      | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matmul      | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|matmul      | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matmul      | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2558.496 ; gain = 801.461 ; free physical = 184 ; free virtual = 6118
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2591.543 ; gain = 834.508 ; free physical = 234 ; free virtual = 6113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2592.551 ; gain = 835.516 ; free physical = 234 ; free virtual = 6113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 168 ; free virtual = 5975
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 168 ; free virtual = 5975
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|matmul      | add_ln15_reg_498_pp0_iter3_reg_reg[7]                | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|matmul      | empty_reg_493_pp0_iter3_reg_reg[0]                   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|matmul      | ap_condition_exit_pp0_iter0_stage0_pp0_iter3_reg_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|matmul      | (A*B)'          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|matmul      | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|matmul      | (PCIN>>17+A*B)' | 0      | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    19|
+|2     |DSP48E1 |     3|
+|4     |LUT1    |     1|
+|5     |LUT2    |    77|
+|6     |LUT3    |     4|
+|7     |LUT4    |    58|
+|8     |LUT5    |    17|
+|9     |LUT6    |    30|
+|10    |SRL16E  |    10|
+|11    |FDRE    |   176|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.363 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2759.363 ; gain = 885.555 ; free physical = 166 ; free virtual = 5973
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2759.371 ; gain = 1002.328 ; free physical = 166 ; free virtual = 5974
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2759.371 ; gain = 0.000 ; free physical = 166 ; free virtual = 5973
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2815.391 ; gain = 0.000 ; free physical = 330 ; free virtual = 6138
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3dcfbc72
+INFO: [Common 17-83] Releasing license: Synthesis
+92 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 2815.426 ; gain = 1176.992 ; free physical = 335 ; free virtual = 6142
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1809.637; main = 1809.637; forked = 254.304
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3486.258; main = 2815.395; forked = 1019.758
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2839.402 ; gain = 0.000 ; free physical = 335 ; free virtual = 6142
+INFO: [Common 17-1381] The checkpoint '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 1e3ca79f65404f13
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2839.402 ; gain = 0.000 ; free physical = 264 ; free virtual = 6072
+INFO: [Common 17-1381] The checkpoint '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_hls_inst_0_utilization_synth.rpt -pb bd_0_hls_inst_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 25 15:19:32 2026...

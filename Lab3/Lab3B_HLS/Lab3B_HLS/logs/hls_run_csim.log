@@ -1,0 +1,42 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=matmul.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/matmul.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../Lab3_HLS/tb_matmul.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/tb_matmul.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=matmul' from hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z010clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../Lab3_HLS/tb_matmul.cpp in debug mode
+   Compiling ../../../../matmul.cpp in debug mode
+   Generating csim.exe
+Ma tran so 1 la: 
+         0         1         2
+         0         1         2
+         0         1         2
+Ma tran so 2 la: 
+         0         0         0
+         1         1         1
+         2         2         2
+Ma tran ket qua la: 
+         5         5         5
+         5         5         5
+         5         5         5
+Ket qua dung!
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 6.23 seconds. Total CPU system time: 0.54 seconds. Total elapsed time: 6.62 seconds; peak allocated memory: 269.496 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 10s

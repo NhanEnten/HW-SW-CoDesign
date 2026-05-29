@@ -1,0 +1,25 @@
+{
+    "0": {
+        "name": "matmul",
+        "file": "matmul.cpp",
+        "fileloc": "4",
+        "instructions": "242",
+        "total_instructions": "242",
+        "calls": "",
+        "basicblocks": "3",
+        "memory_accesses": "39",
+        "control_depth": "0",
+        "def_use_depth": "2",
+        "loads": {
+            "L": "3",
+            "T": "32"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

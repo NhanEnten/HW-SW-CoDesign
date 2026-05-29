@@ -1,0 +1,204 @@
+
+
+================================================================
+== Synthesis Summary Report of 'matmul'
+================================================================
++ General Information: 
+    * Date:           Mon May 25 14:37:04 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        Lab3_HLS
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
+* Performance & Resource Estimates: 
++----------------------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+------------+-----+
+|              Modules             | Issue|                     | Iteration|         | Trip |          |       Latency       |      |      |        |          |            |     |
+|              & Loops             | Type |    Violation Type   |  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack| BRAM |   DSP  |    FF    |     LUT    | URAM|
++----------------------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+------------+-----+
+|+ matmul                          |     -|                    -|         -|     2048|     -|    rewind|     2052|  2.052e+04|  0.39|     -|  6 (7%)|  728 (2%)|  2331 (13%)|    -|
+| o VITIS_LOOP_6_1_VITIS_LOOP_7_2  |    II|  Resource Limitation|        11|        8|   256|       yes|     2050|  2.050e+04|  7.30|     -|       -|         -|           -|    -|
++----------------------------------+------+---------------------+----------+---------+------+----------+---------+-----------+------+------+--------+----------+------------+-----+
+    II Violation Information: docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++----------------+-----------+----------+
+| Port           | Direction | Bitwidth |
++----------------+-----------+----------+
+| in1_address0   | out       | 8        |
+| in1_address1   | out       | 8        |
+| in1_q0         | in        | 32       |
+| in1_q1         | in        | 32       |
+| in2_address0   | out       | 8        |
+| in2_address1   | out       | 8        |
+| in2_q0         | in        | 32       |
+| in2_q1         | in        | 32       |
+| out_r_address0 | out       | 8        |
+| out_r_d0       | out       | 32       |
++----------------+-----------+----------+
+
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| size | ap_none | in        | 32       |
++------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| in1      | in        | int*     |
+| in2      | in        | int*     |
+| out      | out       | int*     |
+| size     | in        | int      |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+----------------+---------+----------+
+| Argument | HW Interface   | HW Type | HW Usage |
++----------+----------------+---------+----------+
+| in1      | in1_address0   | port    | offset   |
+| in1      | in1_ce0        | port    |          |
+| in1      | in1_q0         | port    |          |
+| in1      | in1_address1   | port    | offset   |
+| in1      | in1_ce1        | port    |          |
+| in1      | in1_q1         | port    |          |
+| in2      | in2_address0   | port    | offset   |
+| in2      | in2_ce0        | port    |          |
+| in2      | in2_q0         | port    |          |
+| in2      | in2_address1   | port    | offset   |
+| in2      | in2_ce1        | port    |          |
+| in2      | in2_q1         | port    |          |
+| out      | out_r_address0 | port    | offset   |
+| out      | out_r_ce0      | port    |          |
+| out      | out_r_we0      | port    |          |
+| out      | out_r_d0       | port    |          |
+| size     | size           | port    |          |
++----------+----------------+---------+----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------+-----+--------+--------------+--------+----------+---------+
+| Name                     | DSP | Pragma | Variable     | Op     | Impl     | Latency |
++--------------------------+-----+--------+--------------+--------+----------+---------+
+| + matmul                 | 6   |        |              |        |          |         |
+|   icmp_ln10_fu_517_p2    |     |        | icmp_ln10    | setgt  | auto     | 0       |
+|   icmp_ln10_1_fu_533_p2  |     |        | icmp_ln10_1  | setgt  | auto     | 0       |
+|   icmp_ln10_2_fu_539_p2  |     |        | icmp_ln10_2  | setgt  | auto     | 0       |
+|   icmp_ln10_3_fu_555_p2  |     |        | icmp_ln10_3  | setgt  | auto     | 0       |
+|   icmp_ln10_4_fu_561_p2  |     |        | icmp_ln10_4  | setgt  | auto     | 0       |
+|   icmp_ln10_5_fu_567_p2  |     |        | icmp_ln10_5  | setgt  | auto     | 0       |
+|   icmp_ln10_6_fu_573_p2  |     |        | icmp_ln10_6  | setgt  | auto     | 0       |
+|   icmp_ln10_7_fu_589_p2  |     |        | icmp_ln10_7  | setgt  | auto     | 0       |
+|   icmp_ln10_8_fu_595_p2  |     |        | icmp_ln10_8  | setgt  | auto     | 0       |
+|   icmp_ln10_9_fu_601_p2  |     |        | icmp_ln10_9  | setgt  | auto     | 0       |
+|   icmp_ln10_10_fu_607_p2 |     |        | icmp_ln10_10 | setgt  | auto     | 0       |
+|   icmp_ln10_11_fu_613_p2 |     |        | icmp_ln10_11 | setgt  | auto     | 0       |
+|   icmp_ln10_12_fu_619_p2 |     |        | icmp_ln10_12 | setgt  | auto     | 0       |
+|   icmp_ln10_13_fu_625_p2 |     |        | icmp_ln10_13 | setgt  | auto     | 0       |
+|   icmp_ln10_14_fu_631_p2 |     |        | icmp_ln10_14 | setgt  | auto     | 0       |
+|   icmp_ln10_15_fu_647_p2 |     |        | icmp_ln10_15 | setgt  | auto     | 0       |
+|   add_ln6_fu_674_p2      |     |        | add_ln6      | add    | fabric   | 0       |
+|   select_ln6_fu_680_p3   |     |        | select_ln6   | select | auto_sel | 0       |
+|   i_3_fu_688_p3          |     |        | i_3          | select | auto_sel | 0       |
+|   add_ln11_fu_735_p2     |     |        | add_ln11     | add    | fabric   | 0       |
+|   add_ln11_1_fu_802_p2   |     |        | add_ln11_1   | add    | fabric   | 0       |
+|   add_ln11_2_fu_849_p2   |     |        | add_ln11_2   | add    | fabric   | 0       |
+|   add_ln11_3_fu_894_p2   |     |        | add_ln11_3   | add    | fabric   | 0       |
+|   add_ln11_4_fu_961_p2   |     |        | add_ln11_4   | add    | fabric   | 0       |
+|   add_ln11_5_fu_1031_p2  |     |        | add_ln11_5   | add    | fabric   | 0       |
+|   xor_ln11_fu_1168_p2    |     |        | xor_ln11     | xor    | auto     | 0       |
+|   add_ln14_fu_1041_p2    |     |        | add_ln14     | add    | fabric   | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | sum          | mul    | auto     | 1       |
+|   sum_1_fu_905_p3        |     |        | sum_1        | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11     | mul    | auto     | 1       |
+|   sum_2_fu_912_p2        |     |        | sum_2        | add    | fabric   | 0       |
+|   sum_3_fu_918_p3        |     |        | sum_3        | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_1   | mul    | auto     | 1       |
+|   sum_4_fu_971_p2        |     |        | sum_4        | add    | fabric   | 0       |
+|   sum_5_fu_976_p3        |     |        | sum_5        | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_2   | mul    | auto     | 1       |
+|   sum_6_fu_982_p2        |     |        | sum_6        | add    | fabric   | 0       |
+|   sum_7_fu_988_p3        |     |        | sum_7        | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_3   | mul    | auto     | 1       |
+|   sum_8_fu_1045_p2       |     |        | sum_8        | add    | fabric   | 0       |
+|   sum_9_fu_1050_p3       |     |        | sum_9        | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_4   | mul    | auto     | 1       |
+|   sum_10_fu_1056_p2      |     |        | sum_10       | add    | fabric   | 0       |
+|   sum_11_fu_1062_p3      |     |        | sum_11       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_5   | mul    | auto     | 1       |
+|   sum_12_fu_1109_p2      |     |        | sum_12       | add    | fabric   | 0       |
+|   sum_13_fu_1114_p3      |     |        | sum_13       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_6   | mul    | auto     | 1       |
+|   sum_14_fu_1120_p2      |     |        | sum_14       | add    | fabric   | 0       |
+|   sum_15_fu_1126_p3      |     |        | sum_15       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_7   | mul    | auto     | 1       |
+|   sum_16_fu_1189_p2      |     |        | sum_16       | add    | fabric   | 0       |
+|   sum_17_fu_1194_p3      |     |        | sum_17       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_8   | mul    | auto     | 1       |
+|   sum_18_fu_1200_p2      |     |        | sum_18       | add    | fabric   | 0       |
+|   sum_19_fu_1206_p3      |     |        | sum_19       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_9   | mul    | auto     | 1       |
+|   sum_20_fu_1246_p2      |     |        | sum_20       | add    | fabric   | 0       |
+|   sum_21_fu_1251_p3      |     |        | sum_21       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_10  | mul    | auto     | 1       |
+|   sum_22_fu_1257_p2      |     |        | sum_22       | add    | fabric   | 0       |
+|   sum_23_fu_1263_p3      |     |        | sum_23       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_11  | mul    | auto     | 1       |
+|   sum_24_fu_1270_p2      |     |        | sum_24       | add    | fabric   | 0       |
+|   sum_25_fu_1275_p3      |     |        | sum_25       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_12  | mul    | auto     | 1       |
+|   sum_26_fu_1281_p2      |     |        | sum_26       | add    | fabric   | 0       |
+|   sum_27_fu_1287_p3      |     |        | sum_27       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U1  | 3   |        | mul_ln11_13  | mul    | auto     | 1       |
+|   sum_28_fu_1298_p2      |     |        | sum_28       | add    | fabric   | 0       |
+|   sum_29_fu_1303_p3      |     |        | sum_29       | select | auto_sel | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln11_14  | mul    | auto     | 1       |
+|   sum_30_fu_1309_p2      |     |        | sum_30       | add    | fabric   | 0       |
+|   sum_31_fu_1315_p3      |     |        | sum_31       | select | auto_sel | 0       |
+|   j_3_fu_1213_p2         |     |        | j_3          | add    | fabric   | 0       |
+|   add_ln6_1_fu_1218_p2   |     |        | add_ln6_1    | add    | fabric   | 0       |
+|   icmp_ln7_fu_1224_p2    |     |        | icmp_ln7     | seteq  | auto     | 0       |
+|   icmp_ln6_fu_1230_p2    |     |        | icmp_ln6     | seteq  | auto     | 0       |
++--------------------------+-----+--------+--------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++--------------+---------+----------------------------------------------------------------+----------------------------------------------+
+| Type         | Options | Location                                                       | Inferred From                                |
++--------------+---------+----------------------------------------------------------------+----------------------------------------------+
+| LOOP_FLATTEN |         | loop VITIS_LOOP_6_1 (matmul.cpp:6:18) in matmul (matmul.cpp:6) | pipeline matmul.cpp:7 (Performance Budgeter) |
+| PIPELINE     |         | loop VITIS_LOOP_7_2 (matmul.cpp:7:19) in matmul (matmul.cpp:7) | syn.compile.pipeline_loops=64                |
++--------------+---------+----------------------------------------------------------------+----------------------------------------------+
+
+

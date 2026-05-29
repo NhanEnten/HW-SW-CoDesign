@@ -1,0 +1,33 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Mon May 25 14:44:47 2026
+| Host         : NhanEnten running 64-bit Ubuntu 24.04.4 LTS
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/matmul_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------------+-----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|             Instance             |                     Module                    | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------------+-----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| bd_0_wrapper                     |                                         (top) |        842 |        842 |       0 |    0 | 411 |      0 |      0 |          6 |
+|   bd_0_i                         |                                          bd_0 |        842 |        842 |       0 |    0 | 411 |      0 |      0 |          6 |
+|     hls_inst                     |                               bd_0_hls_inst_0 |        842 |        842 |       0 |    0 | 411 |      0 |      0 |          6 |
+|       inst                       |                        bd_0_hls_inst_0_matmul |        842 |        842 |       0 |    0 | 411 |      0 |      0 |          6 |
+|         (inst)                   |                        bd_0_hls_inst_0_matmul |        753 |        753 |       0 |    0 | 376 |      0 |      0 |          0 |
+|         flow_control_loop_pipe_U | bd_0_hls_inst_0_matmul_flow_control_loop_pipe |         59 |         59 |       0 |    0 |   1 |      0 |      0 |          0 |
++----------------------------------+-----------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

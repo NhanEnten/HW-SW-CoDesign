@@ -1,0 +1,19 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../Lab3_HLS/tb_matmul.cpp in debug mode
+   Compiling ../../../../matmul.cpp in debug mode
+   Generating csim.exe
+Ma tran so 1 la: 
+         0         1         2
+         0         1         2
+         0         1         2
+Ma tran so 2 la: 
+         0         0         0
+         1         1         1
+         2         2         2
+Ma tran ket qua la: 
+         5         5         5
+         5         5         5
+         5         5         5
+Ket qua dung!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

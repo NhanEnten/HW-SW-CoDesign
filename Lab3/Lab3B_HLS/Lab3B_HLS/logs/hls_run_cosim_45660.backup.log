@@ -1,0 +1,227 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=matmul.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/matmul.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../Lab3_HLS/tb_matmul.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/tb_matmul.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=matmul' from hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z010clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/vitis-comp.json
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "/home/nhanenten/2025.2/Vitis/lnx64/tools/clang-16/bin/clang++"
+   Compiling apatb_matmul.cpp
+   Compiling matmul.cpp_pre.cpp.tb.cpp
+   Compiling tb_matmul.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matmul_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Ma tran so 1 la: 
+         0         1         2
+         0         1         2
+         0         1         2
+Ma tran so 2 la: 
+         0         0         0
+         1         1         1
+         2         2         2
+Ma tran ket qua la: 
+         5         5         5
+         5         5         5
+         5         5         5
+Ket qua dung!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/nhanenten/2025.2/Vivado/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_matmul_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matmul.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./svtb -i ./file_agent -i ./matmul_subsystem -s matmul 
+Multi-threading is on. Using 10 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/AESL_automem_out_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_out_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/matmul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matmul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/matmul_flow_control_loop_delay_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matmul_flow_control_loop_delay_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/matmul.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matmul_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/AESL_automem_in1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_in1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/AESL_automem_in2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_in2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/matmul_mul_32s_32s_32_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matmul_mul_32s_32s_32_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/svr/svr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/svr/svr_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/matmul_subsystem/matmul_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.svr_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.matmul_subsystem_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matmul_mul_32s_32s_32_2_1(NUM_ST...
+Compiling module xil_defaultlib.matmul_flow_control_loop_delay_p...
+Compiling module xil_defaultlib.matmul
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.svr_if_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_in1
+Compiling module xil_defaultlib.AESL_automem_in2
+Compiling module xil_defaultlib.AESL_automem_out_r
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matmul_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matmul
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon May 25 15:16:48 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matmul/xsim_script.tcl
+# xsim {matmul} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matmul_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matmul.tcl}
+Time resolution is 1 ps
+source matmul.tcl
+## run all
+UVM_INFO /home/nhanenten/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /home/nhanenten/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO /home/nhanenten/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-------------------------------------------------------------------------------------
+Name                         Type                              Size  Value           
+-------------------------------------------------------------------------------------
+uvm_test_top                 matmul_test_lib                   -     @348            
+  top_env                    matmul_env                        -     @359            
+    env_master_svr_size      uvm_env                           -     @376            
+      m_agt                  uvm_agent                         -     @559            
+        drv                  uvm_driver #(REQ,RSP)             -     @707            
+          rsp_port           uvm_analysis_port                 -     @726            
+          seq_item_port      uvm_seq_item_pull_port            -     @716            
+        mon                  uvm_monitor                       -     @736            
+          item_collect_port  uvm_analysis_port                 -     @747            
+        sqr                  uvm_sequencer                     -     @570            
+          rsp_export         uvm_analysis_export               -     @579            
+          seq_item_export    uvm_seq_item_pull_imp             -     @697            
+          arbitration_queue  array                             0     -               
+          lock_queue         array                             0     -               
+          num_last_reqs      integral                          32    'd1             
+          num_last_rsps      integral                          32    'd1             
+    matmul_virtual_sqr       matmul_virtual_sequencer          -     @421            
+      rsp_export             uvm_analysis_export               -     @430            
+      seq_item_export        uvm_seq_item_pull_imp             -     @548            
+      arbitration_queue      array                             0     -               
+      lock_queue             array                             0     -               
+      num_last_reqs          integral                          32    'd1             
+      num_last_rsps          integral                          32    'd1             
+    refm                     matmul_reference_model            -     @389            
+      trans_num_idx          integral                          32    'h0             
+    subsys_mon               matmul_subsystem_monitor          -     @402            
+      scbd                   matmul_scoreboard                 -     @774            
+        refm                 matmul_reference_model            -     @389            
+          trans_num_idx      integral                          32    'h0             
+      svr_master_size_imp    uvm_analysis_imp_svr_master_size  -     @411            
+    env_master_svr_size      uvm_env                           -     @376            
+    refm                     matmul_reference_model            -     @389            
+    matmul_virtual_sqr       matmul_virtual_sequencer          -     @421            
+    matmul_cfg               matmul_config                     -     @373            
+      port_size_cfg          svr_config                        -     @374            
+        svr_type             svr_inst_type                     32    SVR_MASTER      
+        prt_type             svr_protocol_type                 32    AP_NONE         
+        is_active            svr_active_passive_enum           1     SVR_ACTIVE      
+        reset_level          svr_reset_level_enum              1     RESET_LEVEL_HIGH
+        spec_cfg             svr_spec_cfg_enum                 32    NORMAL          
+        clatency             svr_latency                       -     @375            
+          transfer_latency   integral                          32    'h0             
+      check_ena              integral                          32    'h0             
+      cover_ena              integral                          32    'h0             
+-------------------------------------------------------------------------------------
+
+UVM_INFO /home/nhanenten/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "41155000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 41225 ns : File "/home/nhanenten/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: xsimkernel Simulation Memory Usage: 308804 KB (Peak: 361268 KB), Simulation CPU Usage: 900 ms
+INFO: [Common 17-206] Exiting xsim at Mon May 25 15:16:50 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Ma tran so 1 la: 
+         0         1         2
+         0         1         2
+         0         1         2
+Ma tran so 2 la: 
+         0         0         0
+         1         1         1
+         2         2         2
+Ma tran ket qua la: 
+         5         5         5
+         5         5         5
+         5         5         5
+Ket qua dung!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-112] Total CPU user time: 135.26 seconds. Total CPU system time: 2.7 seconds. Total elapsed time: 40.68 seconds; peak allocated memory: 339.059 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 44s

@@ -1,0 +1,11 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_matmul_ir
+Args:            
+  - Callee:          'matmul(int (*) [16], int (*) [16], int (*) [16], int)'
+    DebugLoc:        { File: matmul.cpp, Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_matmul_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...

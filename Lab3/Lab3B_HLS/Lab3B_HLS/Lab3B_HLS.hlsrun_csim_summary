@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/Lab3B_HLS.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon May 25 15:10:43 2026",
+ "timestampMillis": "1779696643898",
+ "buildStep": {
+  "cmdId": "55d55a1c-b5d2-4b4e-9872-6844e9610ce1",
+  "name": "vitis-run",
+  "logFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/logs/Lab3B_HLS.steps.log",
+  "commandLine": "/home/nhanenten/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/hls_config.cfg --work_dir Lab3B_HLS ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/hls_config.cfg",
+   "--work_dir",
+   "Lab3B_HLS"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 15:10:43 2026",
+ "timestampMillis": "1779696643898",
+ "status": {
+  "cmdId": "55d55a1c-b5d2-4b4e-9872-6844e9610ce1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon May 25 15:10:45 2026",
+ "timestampMillis": "1779696645776",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matmul",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/matmul.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon May 25 15:10:45 2026",
+ "timestampMillis": "1779696645776",
+ "buildStep": {
+  "cmdId": "da294c66-55d1-4d26-b3a9-9dc872aee944",
+  "name": "",
+  "logFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 15:10:45 2026",
+ "timestampMillis": "1779696645777",
+ "status": {
+  "cmdId": "da294c66-55d1-4d26-b3a9-9dc872aee944",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 15:10:51 2026",
+ "timestampMillis": "1779696651532",
+ "status": {
+  "cmdId": "da294c66-55d1-4d26-b3a9-9dc872aee944",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 15:10:51 2026",
+ "timestampMillis": "1779696651599",
+ "status": {
+  "cmdId": "55d55a1c-b5d2-4b4e-9872-6844e9610ce1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 15:10:51 2026",
+ "timestampMillis": "1779696651599",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 15:10:51 2026",
+ "timestampMillis": "1779696651599",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

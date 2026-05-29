@@ -1,0 +1,1600 @@
+---
+MainSourceFile:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          850249
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          850720
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          851192
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          1147701
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_61_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      61
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2396035
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_61_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_117_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      117
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2396856
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_117_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_289_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      289
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2399525
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_289_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_449_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      449
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2402259
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_449_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_629_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      629
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2405429
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_629_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_633_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      633
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2405515
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_633_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_743_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      743
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2407829
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_743_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_840_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      840
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2409325
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_840_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_859_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      859
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2409562
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_859_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1176_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      1176
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2415816
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1176_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1259_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cordic_apfixed.h'
+      FileOffset:      1259
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2417419
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1259_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_68_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      68
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2425304
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_68_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_74_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      74
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2425469
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_74_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_78_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      78
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2425585
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_78_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_145_4:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      145
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2427425
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_145_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_151_5:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      151
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2427590
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_151_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_155_6:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      155
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2427706
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_155_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_170_7:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      170
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2428106
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_170_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_178_8:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      178
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2428348
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_178_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_243_9:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      243
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2431770
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_243_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_249_10:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      249
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2431937
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_249_10: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_253_11:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      253
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2432056
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_253_11: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_268_12:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      268
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2432457
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_268_12: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_276_13:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      276
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2432706
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_276_13: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_505_14:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      505
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2448278
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_505_14: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_511_15:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      511
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2448445
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_511_15: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_515_16:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      515
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2448563
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_515_16: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_525_17:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      525
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2448759
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_525_17: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_529_18:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      529
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2448868
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_529_18: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_539_19:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      539
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2449164
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_539_19: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_547_20:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      547
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2449430
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_547_20: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_908_21:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      908
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2481686
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_908_21: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_914_22:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      914
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2481853
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_914_22: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_918_23:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      918
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2481972
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_918_23: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1034_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1034
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2484684
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1034_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1040_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1040
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2484849
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1040_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1044_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1044
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2484966
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1044_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1131_4:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1131
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2488455
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1131_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1137_5:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1137
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2488621
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1137_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1141_6:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1141
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2488739
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1141_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1160_7:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1160
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2489238
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1160_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1167_8:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1167
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2489491
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1167_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1283_9:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1283
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2494956
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1283_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1289_10:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1289
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2495123
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1289_10: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1293_11:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1293
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2495241
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1293_11: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1313_12:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1313
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2495769
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1313_12: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1320_13:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1320
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2496029
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1320_13: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1582_14:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1582
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2513324
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1582_14: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1588_15:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1588
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2513491
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1588_15: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1592_16:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1592
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2513610
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1592_16: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1616_17:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1616
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2514103
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1616_17: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1623_18:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      1623
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2514381
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1623_18: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2053_19:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2053
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2552839
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2053_19: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2059_20:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2059
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2553006
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2059_20: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2063_21:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2063
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2553125
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2063_21: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2192_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2192
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2555755
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2192_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2199_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2199
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2555933
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2199_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2203_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2203
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2556044
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2203_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2250_4:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2250
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2557672
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2250_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2257_5:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2257
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2557849
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2257_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2261_6:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2261
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2557960
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2261_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2279_7:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2279
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2558352
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2279_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2334_8:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2334
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2560829
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2334_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2341_9:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2341
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2561011
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2341_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2345_10:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2345
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2561123
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2345_10: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2363_11:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2363
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2561523
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2363_11: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2452_12:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2452
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2566975
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2452_12: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2459_13:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2459
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2567158
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2459_13: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2463_14:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2463
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2567271
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2463_14: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2473_15:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2473
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2567461
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2473_15: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2477_16:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2477
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2567563
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2477_16: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2488_17:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2488
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2567856
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2488_17: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2496_18:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2496
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2568054
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2496_18: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2821_19:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2821
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2602543
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2821_19: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2828_20:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2828
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2602726
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2828_20: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2832_21:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2832
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2602839
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2832_21: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2920_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2920
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2604644
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2920_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2927_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2927
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2604755
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2927_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2931_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2931
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2604830
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2931_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2946_4:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2946
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2605122
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2946_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2978_5:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2978
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2606338
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2978_5: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2985_6:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2985
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2606452
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2985_6: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2989_7:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      2989
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2606529
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2989_7: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3004_8:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3004
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2606828
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3004_8: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3054_9:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3054
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2610163
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3054_9: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3061_10:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3061
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2610277
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3061_10: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3065_11:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3065
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2610354
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3065_11: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3080_12:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3080
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2610654
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3080_12: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3217_13:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3217
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2629968
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3217_13: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3224_14:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3224
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2630085
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3224_14: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3228_15:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3228
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2630164
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3228_15: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3243_16:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3243
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2630455
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3243_16: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3403_17:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3403
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2656067
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3403_17: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3410_18:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3410
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2656184
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3410_18: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3414_19:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h'
+      FileOffset:      3414
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2656265
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3414_19: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_703_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_log_apfixed.h'
+      FileOffset:      703
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2690347
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_703_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_921_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_log_apfixed.h'
+      FileOffset:      921
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2698754
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_921_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1345_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_log_apfixed.h'
+      FileOffset:      1345
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2717747
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1345_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_243_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_sqrt_apfixed.h'
+      FileOffset:      243
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2732720
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_243_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_271_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_sqrt_apfixed.h'
+      FileOffset:      271
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2733252
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_271_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_48_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      48
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2749243
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_48_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_109_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      109
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2750408
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_109_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_123_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      123
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2750724
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_123_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_153_4:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      153
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2751249
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_153_4: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_281_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      281
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2753118
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_281_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_301_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      301
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2753498
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_301_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_315_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      315
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2753824
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_315_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_433_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      433
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2755675
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_433_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_447_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_pow_apfixed.h'
+      FileOffset:      447
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2756014
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_447_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_33_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_diff_apfixed.h'
+      FileOffset:      33
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2758695
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_33_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_183_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_diff_apfixed.h'
+      FileOffset:      183
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2761611
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_183_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_248_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_diff_apfixed.h'
+      FileOffset:      248
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2762918
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_248_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_44_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_frexp_apfixed.h'
+      FileOffset:      44
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2768565
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_44_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_16_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      16
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2773866
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_16_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_27_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      27
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774044
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_27_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_38_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      38
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774208
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_38_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_49_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      49
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774373
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_49_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_60_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      60
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774550
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_60_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_71_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      71
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774728
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_71_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_82_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      82
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2774892
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_82_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_93_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_all_any_apfixed.h'
+      FileOffset:      93
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2775057
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_93_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_26_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_mad_apfixed.h'
+      FileOffset:      26
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2846694
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_26_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_40_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_cbrt_apfixed.h'
+      FileOffset:      40
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2848457
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_40_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_49_1:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_hypot_apfixed.h'
+      FileOffset:      49
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2852978
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_49_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_81_2:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_hypot_apfixed.h'
+      FileOffset:      81
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2853711
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_81_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_169_3:  '
+      FilePath:        '/home/nhanenten/2025.2/Vitis/common/technology/autopilot/etc/hls_hypot_apfixed.h'
+      FileOffset:      169
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2855398
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_169_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_6_1:  '
+      FilePath:        matmul.cpp
+      FileOffset:      6
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2908064
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_6_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_7_2:  '
+      FilePath:        matmul.cpp
+      FileOffset:      7
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2908097
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_7_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_9_3:  '
+      FilePath:        matmul.cpp
+      FileOffset:      9
+      Replacements:
+        - FilePath:        '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp'
+          Offset:          2908148
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_9_3: '
+    Level:           Remark
+    BuildDirectory:  '/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS'
+...

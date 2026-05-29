@@ -1,0 +1,665 @@
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21426:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21426:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21440:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21440:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21454:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:21454:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:23478:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:23478:7: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:56981:5: remark: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^
+    VITIS_LOOP_61_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:56981:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57027:5: remark: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^
+    VITIS_LOOP_117_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57027:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57190:9: remark: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^
+        VITIS_LOOP_289_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57190:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57342:9: remark: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^
+        VITIS_LOOP_449_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57342:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57522:5: remark: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^
+    VITIS_LOOP_629_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57522:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57526:5: remark: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^
+    VITIS_LOOP_633_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57526:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57636:5: remark: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^
+    VITIS_LOOP_743_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57636:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57726:7: remark: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^
+      VITIS_LOOP_840_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57726:7: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57745:7: remark: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^
+      VITIS_LOOP_859_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:57745:7: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58038:5: remark: Added loop label VITIS_LOOP_1176_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^
+    VITIS_LOOP_1176_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58038:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58121:5: remark: Added loop label VITIS_LOOP_1259_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^
+    VITIS_LOOP_1259_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58121:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58527:13: remark: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^
+            VITIS_LOOP_68_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58527:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58533:17: remark: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^
+                VITIS_LOOP_74_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58533:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58537:17: remark: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^
+                VITIS_LOOP_78_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58537:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58584:13: remark: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^
+            VITIS_LOOP_145_4: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58584:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58590:17: remark: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^
+                VITIS_LOOP_151_5: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58590:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58594:17: remark: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^
+                VITIS_LOOP_155_6: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58594:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58609:9: remark: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^
+        VITIS_LOOP_170_7: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58609:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58617:17: remark: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^
+                VITIS_LOOP_178_8: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58617:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58682:13: remark: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^
+            VITIS_LOOP_243_9: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58682:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58688:17: remark: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^
+                VITIS_LOOP_249_10: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58688:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58692:17: remark: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^
+                VITIS_LOOP_253_11: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58692:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58707:9: remark: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^
+        VITIS_LOOP_268_12: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58707:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58715:17: remark: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^
+                VITIS_LOOP_276_13: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58715:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58944:13: remark: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^
+            VITIS_LOOP_505_14: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58944:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58950:17: remark: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^
+                VITIS_LOOP_511_15: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58950:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58954:17: remark: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^
+                VITIS_LOOP_515_16: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58954:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58964:9: remark: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^
+        VITIS_LOOP_525_17: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58964:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58968:9: remark: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^
+        VITIS_LOOP_529_18: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58968:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58978:9: remark: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^
+        VITIS_LOOP_539_19: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58978:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58986:17: remark: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^
+                VITIS_LOOP_547_20: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:58986:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59347:13: remark: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^
+            VITIS_LOOP_908_21: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59347:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59353:17: remark: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^
+                VITIS_LOOP_914_22: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59353:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59357:17: remark: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^
+                VITIS_LOOP_918_23: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59357:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59473:13: remark: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^
+            VITIS_LOOP_1034_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59473:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59479:17: remark: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^
+                VITIS_LOOP_1040_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59479:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59483:17: remark: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^
+                VITIS_LOOP_1044_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59483:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59570:13: remark: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^
+            VITIS_LOOP_1131_4: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59570:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59576:17: remark: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^
+                VITIS_LOOP_1137_5: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59576:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59580:17: remark: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^
+                VITIS_LOOP_1141_6: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59580:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59599:9: remark: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^
+        VITIS_LOOP_1160_7: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59599:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59606:17: remark: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^
+                VITIS_LOOP_1167_8: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59606:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59722:13: remark: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^
+            VITIS_LOOP_1283_9: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59722:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59728:17: remark: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^
+                VITIS_LOOP_1289_10: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59728:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59732:17: remark: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^
+                VITIS_LOOP_1293_11: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59732:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59752:9: remark: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^
+        VITIS_LOOP_1313_12: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59752:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59759:17: remark: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^
+                VITIS_LOOP_1320_13: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:59759:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60021:13: remark: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^
+            VITIS_LOOP_1582_14: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60021:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60027:17: remark: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^
+                VITIS_LOOP_1588_15: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60027:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60031:17: remark: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^
+                VITIS_LOOP_1592_16: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60031:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60055:9: remark: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^
+        VITIS_LOOP_1616_17: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60055:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60062:17: remark: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^
+                VITIS_LOOP_1623_18: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60062:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60492:13: remark: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^
+            VITIS_LOOP_2053_19: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60492:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60498:17: remark: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^
+                VITIS_LOOP_2059_20: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60498:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60502:17: remark: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^
+                VITIS_LOOP_2063_21: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60502:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60631:13: remark: Added loop label VITIS_LOOP_2192_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^
+            VITIS_LOOP_2192_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60631:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60638:17: remark: Added loop label VITIS_LOOP_2199_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^
+                VITIS_LOOP_2199_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60638:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60642:17: remark: Added loop label VITIS_LOOP_2203_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^
+                VITIS_LOOP_2203_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60642:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60689:13: remark: Added loop label VITIS_LOOP_2250_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^
+            VITIS_LOOP_2250_4: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60689:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60696:17: remark: Added loop label VITIS_LOOP_2257_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^
+                VITIS_LOOP_2257_5: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60696:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60700:17: remark: Added loop label VITIS_LOOP_2261_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^
+                VITIS_LOOP_2261_6: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60700:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60718:9: remark: Added loop label VITIS_LOOP_2279_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^
+        VITIS_LOOP_2279_7: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60718:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60773:13: remark: Added loop label VITIS_LOOP_2334_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^
+            VITIS_LOOP_2334_8: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60773:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60780:17: remark: Added loop label VITIS_LOOP_2341_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^
+                VITIS_LOOP_2341_9: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60780:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60784:17: remark: Added loop label VITIS_LOOP_2345_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^
+                VITIS_LOOP_2345_10: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60784:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60802:9: remark: Added loop label VITIS_LOOP_2363_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^
+        VITIS_LOOP_2363_11: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60802:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60891:13: remark: Added loop label VITIS_LOOP_2452_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^
+            VITIS_LOOP_2452_12: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60891:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60898:17: remark: Added loop label VITIS_LOOP_2459_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^
+                VITIS_LOOP_2459_13: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60898:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60902:17: remark: Added loop label VITIS_LOOP_2463_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^
+                VITIS_LOOP_2463_14: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60902:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60912:9: remark: Added loop label VITIS_LOOP_2473_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^
+        VITIS_LOOP_2473_15: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60912:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60916:9: remark: Added loop label VITIS_LOOP_2477_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^
+        VITIS_LOOP_2477_16: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60916:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60927:9: remark: Added loop label VITIS_LOOP_2488_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^
+        VITIS_LOOP_2488_17: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60927:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60935:17: remark: Added loop label VITIS_LOOP_2496_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^
+                VITIS_LOOP_2496_18: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:60935:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61260:13: remark: Added loop label VITIS_LOOP_2821_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^
+            VITIS_LOOP_2821_19: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61260:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61267:17: remark: Added loop label VITIS_LOOP_2828_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^
+                VITIS_LOOP_2828_20: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61267:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61271:17: remark: Added loop label VITIS_LOOP_2832_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^
+                VITIS_LOOP_2832_21: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61271:17: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61359:4: remark: Added loop label VITIS_LOOP_2920_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^
+   VITIS_LOOP_2920_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61359:4: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61366:5: remark: Added loop label VITIS_LOOP_2927_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^
+    VITIS_LOOP_2927_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61366:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61370:5: remark: Added loop label VITIS_LOOP_2931_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^
+    VITIS_LOOP_2931_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61370:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61385:3: remark: Added loop label VITIS_LOOP_2946_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^
+  VITIS_LOOP_2946_4: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61385:3: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61417:4: remark: Added loop label VITIS_LOOP_2978_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^
+   VITIS_LOOP_2978_5: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61417:4: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61424:5: remark: Added loop label VITIS_LOOP_2985_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^
+    VITIS_LOOP_2985_6: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61424:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61428:5: remark: Added loop label VITIS_LOOP_2989_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^
+    VITIS_LOOP_2989_7: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61428:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61443:3: remark: Added loop label VITIS_LOOP_3004_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^
+  VITIS_LOOP_3004_8: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61443:3: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61493:4: remark: Added loop label VITIS_LOOP_3054_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^
+   VITIS_LOOP_3054_9: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61493:4: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61500:5: remark: Added loop label VITIS_LOOP_3061_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^
+    VITIS_LOOP_3061_10: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61500:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61504:5: remark: Added loop label VITIS_LOOP_3065_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^
+    VITIS_LOOP_3065_11: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61504:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61519:3: remark: Added loop label VITIS_LOOP_3080_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^
+  VITIS_LOOP_3080_12: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61519:3: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61656:4: remark: Added loop label VITIS_LOOP_3217_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^
+   VITIS_LOOP_3217_13: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61656:4: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61663:5: remark: Added loop label VITIS_LOOP_3224_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^
+    VITIS_LOOP_3224_14: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61663:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61667:5: remark: Added loop label VITIS_LOOP_3228_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^
+    VITIS_LOOP_3228_15: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61667:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61682:3: remark: Added loop label VITIS_LOOP_3243_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^
+  VITIS_LOOP_3243_16: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61682:3: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61842:4: remark: Added loop label VITIS_LOOP_3403_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^
+   VITIS_LOOP_3403_17: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61842:4: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61849:5: remark: Added loop label VITIS_LOOP_3410_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^
+    VITIS_LOOP_3410_18: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61849:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61853:5: remark: Added loop label VITIS_LOOP_3414_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^
+    VITIS_LOOP_3414_19: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:61853:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:62568:13: remark: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^
+            VITIS_LOOP_703_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:62568:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:62786:13: remark: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^
+            VITIS_LOOP_921_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:62786:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63203:13: remark: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^
+            VITIS_LOOP_1345_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63203:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63526:9: remark: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^
+        VITIS_LOOP_243_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63526:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63554:9: remark: Added loop label VITIS_LOOP_271_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^
+        VITIS_LOOP_271_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:63554:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64258:13: remark: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^
+            VITIS_LOOP_48_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64258:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64311:5: remark: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^
+    VITIS_LOOP_109_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64311:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64325:13: remark: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^
+            VITIS_LOOP_123_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64325:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64355:13: remark: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^
+            VITIS_LOOP_153_4: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64355:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64440:12: remark: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^
+           VITIS_LOOP_281_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64440:12: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64460:16: remark: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^
+               VITIS_LOOP_301_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64460:16: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64474:20: remark: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^
+                   VITIS_LOOP_315_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64474:20: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64567:12: remark: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^
+           VITIS_LOOP_433_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64567:12: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64581:15: remark: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^
+              VITIS_LOOP_447_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64581:15: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64701:13: remark: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^
+            VITIS_LOOP_33_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64701:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64825:13: remark: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^
+            VITIS_LOOP_183_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64825:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64880:13: remark: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^
+            VITIS_LOOP_248_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:64880:13: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65147:5: remark: Added loop label VITIS_LOOP_44_1:   [xilinx-label-all-loops]
+    for(int l = loop_nm; l > 0; --l){
+    ^
+    VITIS_LOOP_44_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65147:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65398:5: remark: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+    for (int i=0; i<W_;i++)
+    ^
+    VITIS_LOOP_16_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65398:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65409:5: remark: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+    for (int i=0; i<W_;i++)
+    ^
+    VITIS_LOOP_27_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65409:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65420:5: remark: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+    for (int i=0; i<I_;i++)
+    ^
+    VITIS_LOOP_38_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65420:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65431:5: remark: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+    for (int i=0; i<I_;i++)
+    ^
+    VITIS_LOOP_49_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65431:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65442:5: remark: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+    for (int i=0; i<W_;i++)
+    ^
+    VITIS_LOOP_60_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65442:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65453:5: remark: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+    for (int i=0; i<W_;i++)
+    ^
+    VITIS_LOOP_71_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65453:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65464:5: remark: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+    for (int i=0; i<I_;i++)
+    ^
+    VITIS_LOOP_82_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65464:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65475:5: remark: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+    for (int i=0; i<I_;i++)
+    ^
+    VITIS_LOOP_93_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:65475:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:67834:12: remark: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^
+           VITIS_LOOP_26_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:67834:12: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:67898:7: remark: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^
+      VITIS_LOOP_40_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:67898:7: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68015:9: remark: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^
+        VITIS_LOOP_49_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68015:9: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68040:5: remark: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^
+    VITIS_LOOP_81_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68040:5: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68110:8: remark: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^
+       VITIS_LOOP_169_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:68110:8: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70339:2: remark: Added loop label VITIS_LOOP_6_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 16; i++) {
+ ^
+ VITIS_LOOP_6_1: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70339:2: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70340:3: remark: Added loop label VITIS_LOOP_7_2:   [xilinx-label-all-loops]
+  for (int j = 0; j < 16 ; j++) {
+  ^
+  VITIS_LOOP_7_2: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70340:3: note: FIX-IT applied suggested code changes
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70342:4: remark: Added loop label VITIS_LOOP_9_3:   [xilinx-label-all-loops]
+   for (int k = 0; k < 16 ; k++) {
+   ^
+   VITIS_LOOP_9_3: 
+/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/.autopilot/db/matmul.pp.0.cpp:70342:4: note: FIX-IT applied suggested code changes

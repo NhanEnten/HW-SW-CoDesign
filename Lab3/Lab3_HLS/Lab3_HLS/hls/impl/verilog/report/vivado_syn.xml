@@ -1,0 +1,136 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2025.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>10.000</TargetClockPeriod>
+  <AchievedClockPeriod>3.826</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>3.826</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>3.826</CP_SYNTH>
+  <CP_TARGET>10.000</CP_TARGET>
+  <SLACK_FINAL>6.174</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>6.174</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>6.174</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>6.174</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>0</BRAM>
+    <CLB>0</CLB>
+    <DSP>6</DSP>
+    <FF>411</FF>
+    <LATCH>0</LATCH>
+    <LUT>842</LUT>
+    <SRL>0</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>120</BRAM>
+    <CLB>0</CLB>
+    <DSP>80</DSP>
+    <FF>35200</FF>
+    <LUT>17600</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="matmul" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="3">flow_control_loop_pipe_U mul_32s_32s_32_2_1_U1 mul_32s_32s_32_2_1_U2</SubModules>
+    <Resources DSP="6" FF="411" LUT="842" LogicLUT="842"/>
+    <LocalResources FF="376" LUT="753" LogicLUT="753"/>
+  </RtlModule>
+  <RtlModule CELL="inst/flow_control_loop_pipe_U" DEPTH="1" FILE_NAME="matmul.v" ORIG_REF_NAME="matmul_flow_control_loop_pipe">
+    <Resources FF="1" LUT="59" LogicLUT="59"/>
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U1" DEPTH="1" FILE_NAME="matmul.v" ORIG_REF_NAME="matmul_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_32s_32s_32_2_1_U2" DEPTH="1" FILE_NAME="matmul.v" ORIG_REF_NAME="matmul_mul_32s_32s_32_2_1">
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="3.851" DATAPATH_LOGIC_DELAY="2.372" DATAPATH_NET_DELAY="1.479" ENDPOINT_PIN="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="63" SLACK="6.174" STARTPOINT_PIN="bd_0_i/hls_inst/inst/icmp_ln10_4_reg_1364_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/icmp_ln10_4_reg_1364_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="479"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637[3]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_11_reg_1637_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="459"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="3.851" DATAPATH_LOGIC_DELAY="2.372" DATAPATH_NET_DELAY="1.479" ENDPOINT_PIN="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="63" SLACK="6.174" STARTPOINT_PIN="bd_0_i/hls_inst/inst/icmp_ln10_6_reg_1374_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/icmp_ln10_6_reg_1374_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="481"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663[3]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="matmul.v" LINE_NUMBER="1018"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_15_reg_1663_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="517"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="3.851" DATAPATH_LOGIC_DELAY="2.372" DATAPATH_NET_DELAY="1.479" ENDPOINT_PIN="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="63" SLACK="6.174" STARTPOINT_PIN="bd_0_i/hls_inst/inst/icmp_ln10_8_reg_1384_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/icmp_ln10_8_reg_1384_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="483"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689[3]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="matmul.v" LINE_NUMBER="1026"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_19_reg_1689_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="498"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="3.851" DATAPATH_LOGIC_DELAY="2.372" DATAPATH_NET_DELAY="1.479" ENDPOINT_PIN="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="63" SLACK="6.174" STARTPOINT_PIN="bd_0_i/hls_inst/inst/icmp_ln10_10_reg_1394_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/icmp_ln10_10_reg_1394_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="466"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704[3]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="matmul.v" LINE_NUMBER="1036"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_23_reg_1704_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="487"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="3.851" DATAPATH_LOGIC_DELAY="2.372" DATAPATH_NET_DELAY="1.479" ENDPOINT_PIN="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[29]/D" LOGIC_LEVELS="9" MAX_FANOUT="63" SLACK="6.174" STARTPOINT_PIN="bd_0_i/hls_inst/inst/icmp_ln10_2_reg_1354_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/icmp_ln10_2_reg_1354_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="477"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606[3]_i_4" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="matmul.v" LINE_NUMBER="1064"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[3]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[7]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[11]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[15]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="matmul.v" LINE_NUMBER="1014"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/sum_7_reg_1606_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="538"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/matmul_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/matmul_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/matmul_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/matmul_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/matmul_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/matmul_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/matmul_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

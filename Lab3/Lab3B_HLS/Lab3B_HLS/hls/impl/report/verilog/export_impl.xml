@@ -1,0 +1,124 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>impl</RUN_TYPE>
+    <VIVADO_VERSION>v.2025.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>4.670</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>4.670</CP_FINAL>
+    <CP_ROUTE>4.670</CP_ROUTE>
+    <CP_SYNTH>3.477</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>5.330</SLACK_FINAL>
+    <SLACK_ROUTE>5.330</SLACK_ROUTE>
+    <SLACK_SYNTH>6.523</SLACK_SYNTH>
+    <TIMING_MET>TRUE</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>0.000</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>5.330</WNS_FINAL>
+    <WNS_ROUTE>5.330</WNS_ROUTE>
+    <WNS_SYNTH>6.523</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>3</DSP>
+      <FF>176</FF>
+      <LATCH>0</LATCH>
+      <LUT>133</LUT>
+      <SLICE>54</SLICE>
+      <SRL>6</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>120</BRAM>
+      <CLB>0</CLB>
+      <DSP>80</DSP>
+      <FF>35200</FF>
+      <LUT>17600</LUT>
+      <SLICE>4400</SLICE>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="matmul" DISPNAME="inst" RTLNAME="matmul">
+      <SubModules count="2">flow_control_loop_delay_pipe_U mul_32s_32s_32_2_1_U1</SubModules>
+      <Resources LogicLUT="127" SRL="6"/>
+      <LocalResources LogicLUT="91" SRL="6"/>
+    </RtlModule>
+    <RtlModule CELL="inst/flow_control_loop_delay_pipe_U" DEPTH="1" TYPE="rtl" MODULENAME="flow_control_loop_delay_pipe" DISPNAME="flow_control_loop_delay_pipe_U" RTLNAME="matmul_flow_control_loop_delay_pipe"/>
+    <RtlModule CELL="inst/mul_32s_32s_32_2_1_U1" DEPTH="1" TYPE="resource" MODULENAME="mul_32s_32s_32_2_1" DISPNAME="mul_32s_32s_32_2_1_U1" RTLNAME="matmul_mul_32s_32s_32_2_1"/>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="3.953" DATAPATH_LOGIC_DELAY="0.666" DATAPATH_NET_DELAY="3.287" ENDPOINT_PIN="sum_fu_88_reg[28]/R" LOGIC_LEVELS="1" MAX_FANOUT="56" SLACK="5.330" STARTPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/C">
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="88"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/k_fu_84[4]_i_1" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <CELL NAME="sum_fu_88_reg[28]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="319"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.953" DATAPATH_LOGIC_DELAY="0.666" DATAPATH_NET_DELAY="3.287" ENDPOINT_PIN="sum_fu_88_reg[29]/R" LOGIC_LEVELS="1" MAX_FANOUT="56" SLACK="5.330" STARTPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/C">
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="88"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/k_fu_84[4]_i_1" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <CELL NAME="sum_fu_88_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="319"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.953" DATAPATH_LOGIC_DELAY="0.666" DATAPATH_NET_DELAY="3.287" ENDPOINT_PIN="sum_fu_88_reg[30]/R" LOGIC_LEVELS="1" MAX_FANOUT="56" SLACK="5.330" STARTPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/C">
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="88"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/k_fu_84[4]_i_1" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <CELL NAME="sum_fu_88_reg[30]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="319"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.953" DATAPATH_LOGIC_DELAY="0.666" DATAPATH_NET_DELAY="3.287" ENDPOINT_PIN="sum_fu_88_reg[31]/R" LOGIC_LEVELS="1" MAX_FANOUT="56" SLACK="5.330" STARTPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/C">
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="88"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/k_fu_84[4]_i_1" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <CELL NAME="sum_fu_88_reg[31]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="319"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="3.811" DATAPATH_LOGIC_DELAY="0.666" DATAPATH_NET_DELAY="3.145" ENDPOINT_PIN="sum_fu_88_reg[24]/R" LOGIC_LEVELS="1" MAX_FANOUT="56" SLACK="5.472" STARTPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/C">
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="88"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/k_fu_84[4]_i_1" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="matmul_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <CELL NAME="sum_fu_88_reg[24]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="matmul.v" LINE_NUMBER="319"/>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/matmul_design_analysis_routed.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/matmul_failfast_routed.rpt"/>
+    <ReportFile TYPE="power" PATH="verilog/report/matmul_power_routed.rpt"/>
+    <ReportFile TYPE="status" PATH="verilog/report/matmul_status_routed.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/matmul_timing_routed.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/matmul_timing_paths_routed.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/matmul_utilization_routed.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/matmul_utilization_hierarchical_routed.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Mon May 25 15:20:38 +07 2026"/>
+    <item NAME="Version" VALUE="2025.2 (Build 6295257 on Nov 14 2025)"/>
+    <item NAME="Project" VALUE="Lab3B_HLS"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z010-clg400-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="Place &amp; Route target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Impl NAME="Place &amp; Route Options">
+      <item NAME="config_export -vivado_impl_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_phys_opt" VALUE="auto"/>
+      <item NAME="config_export -vivado_pblock" VALUE=""/>
+    </Impl>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>

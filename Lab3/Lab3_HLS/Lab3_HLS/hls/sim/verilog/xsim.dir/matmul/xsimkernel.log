@@ -1,0 +1,7 @@
+Running: xsim.dir/matmul/xsimk -simmode gui -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matmul_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -wdb matmul.wdb -simrunnum 0 -socket 41065
+Design successfully loaded
+Design Loading Memory Usage: 222108 KB (Peak: 222108 KB)
+Design Loading CPU Usage: 860 ms
+Simulation completed
+Simulation Memory Usage: 308912 KB (Peak: 361376 KB)
+Simulation CPU Usage: 900 ms

@@ -1,0 +1,778 @@
+<profile>
+    <ReportVersion>
+        <Version>2025.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z010-clg400-1</Part>
+        <TopModelName>matmul</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>loop auto-rewind stp (delay=0 cycles)</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>6.912</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>2052</Best-caseLatency>
+            <Average-caseLatency>2052</Average-caseLatency>
+            <Worst-caseLatency>2052</Worst-caseLatency>
+            <Best-caseRealTimeLatency>20.520 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>20.520 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>20.520 us</Worst-caseRealTimeLatency>
+            <Interval-min>2048</Interval-min>
+            <Interval-max>2048</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfLoopLatency>
+            <VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                <Slack>7.30</Slack>
+                <TripCount>256</TripCount>
+                <isPerfectNested>0</isPerfectNested>
+                <Latency>2050</Latency>
+                <AbsoluteTimeLatency>20500</AbsoluteTimeLatency>
+                <PipelineII>8</PipelineII>
+                <PipelineDepth>11</PipelineDepth>
+                <PerformancePragma>-</PerformancePragma>
+                <InstanceList/>
+            </VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+        </SummaryOfLoopLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>matmul.cpp:6</SourceLocation>
+            <SummaryOfLoopViolations>
+                <VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                    <Name>VITIS_LOOP_6_1_VITIS_LOOP_7_2</Name>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>matmul.cpp:7</SourceLocation>
+                </VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+            </SummaryOfLoopViolations>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <DSP>6</DSP>
+            <FF>728</FF>
+            <LUT>2331</LUT>
+            <BRAM_18K>0</BRAM_18K>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>120</BRAM_18K>
+            <DSP>80</DSP>
+            <FF>35200</FF>
+            <LUT>17600</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_start</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_done</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_idle</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_ready</name>
+            <Object>matmul</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_address0</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_ce0</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_q0</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_address1</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_ce1</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in1_q1</name>
+            <Object>in1</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_address0</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_ce0</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_q0</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_address1</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_ce1</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in2_q1</name>
+            <Object>in2</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_r_address0</name>
+            <Object>out_r</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_r_ce0</name>
+            <Object>out_r</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_r_we0</name>
+            <Object>out_r</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_r_d0</name>
+            <Object>out_r</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>size</name>
+            <Object>size</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="2">
+            <ModuleName>matmul</ModuleName>
+            <BindInstances>icmp_ln10_fu_517_p2 icmp_ln10_1_fu_533_p2 icmp_ln10_2_fu_539_p2 icmp_ln10_3_fu_555_p2 icmp_ln10_4_fu_561_p2 icmp_ln10_5_fu_567_p2 icmp_ln10_6_fu_573_p2 icmp_ln10_7_fu_589_p2 icmp_ln10_8_fu_595_p2 icmp_ln10_9_fu_601_p2 icmp_ln10_10_fu_607_p2 icmp_ln10_11_fu_613_p2 icmp_ln10_12_fu_619_p2 icmp_ln10_13_fu_625_p2 icmp_ln10_14_fu_631_p2 icmp_ln10_15_fu_647_p2 add_ln6_fu_674_p2 select_ln6_fu_680_p3 i_3_fu_688_p3 add_ln11_fu_735_p2 add_ln11_1_fu_802_p2 add_ln11_2_fu_849_p2 add_ln11_3_fu_894_p2 add_ln11_4_fu_961_p2 add_ln11_5_fu_1031_p2 xor_ln11_fu_1168_p2 add_ln14_fu_1041_p2 mul_32s_32s_32_2_1_U1 sum_1_fu_905_p3 mul_32s_32s_32_2_1_U2 sum_2_fu_912_p2 sum_3_fu_918_p3 mul_32s_32s_32_2_1_U1 sum_4_fu_971_p2 sum_5_fu_976_p3 mul_32s_32s_32_2_1_U2 sum_6_fu_982_p2 sum_7_fu_988_p3 mul_32s_32s_32_2_1_U1 sum_8_fu_1045_p2 sum_9_fu_1050_p3 mul_32s_32s_32_2_1_U2 sum_10_fu_1056_p2 sum_11_fu_1062_p3 mul_32s_32s_32_2_1_U1 sum_12_fu_1109_p2 sum_13_fu_1114_p3 mul_32s_32s_32_2_1_U2 sum_14_fu_1120_p2 sum_15_fu_1126_p3 mul_32s_32s_32_2_1_U1 sum_16_fu_1189_p2 sum_17_fu_1194_p3 mul_32s_32s_32_2_1_U2 sum_18_fu_1200_p2 sum_19_fu_1206_p3 mul_32s_32s_32_2_1_U1 sum_20_fu_1246_p2 sum_21_fu_1251_p3 mul_32s_32s_32_2_1_U2 sum_22_fu_1257_p2 sum_23_fu_1263_p3 mul_32s_32s_32_2_1_U1 sum_24_fu_1270_p2 sum_25_fu_1275_p3 mul_32s_32s_32_2_1_U2 sum_26_fu_1281_p2 sum_27_fu_1287_p3 mul_32s_32s_32_2_1_U1 sum_28_fu_1298_p2 sum_29_fu_1303_p3 mul_32s_32s_32_2_1_U2 sum_30_fu_1309_p2 sum_31_fu_1315_p3 j_3_fu_1213_p2 add_ln6_1_fu_1218_p2 icmp_ln7_fu_1224_p2 icmp_ln6_fu_1230_p2</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>matmul</Name>
+            <Loops>
+                <VITIS_LOOP_6_1_VITIS_LOOP_7_2/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.912</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2052</Best-caseLatency>
+                    <Average-caseLatency>2052</Average-caseLatency>
+                    <Worst-caseLatency>2052</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>20.520 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>20.520 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>20.520 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2048</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))stp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                        <Name>VITIS_LOOP_6_1_VITIS_LOOP_7_2</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>256</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>2050</Latency>
+                        <AbsoluteTimeLatency>20.500 us</AbsoluteTimeLatency>
+                        <PipelineII>8</PipelineII>
+                        <PipelineDepth>11</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>matmul.cpp:6</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                            <Name>VITIS_LOOP_6_1_VITIS_LOOP_7_2</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>matmul.cpp:7</SourceLocation>
+                        </VITIS_LOOP_6_1_VITIS_LOOP_7_2>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>6</DSP>
+                    <AVAIL_DSP>80</AVAIL_DSP>
+                    <UTIL_DSP>7</UTIL_DSP>
+                    <FF>728</FF>
+                    <AVAIL_FF>35200</AVAIL_FF>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>2331</LUT>
+                    <AVAIL_LUT>17600</AVAIL_LUT>
+                    <UTIL_LUT>13</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>120</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_fu_517_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_1_fu_533_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_2_fu_539_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_3_fu_555_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_4_fu_561_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_5_fu_567_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_6_fu_573_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_7_fu_589_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_8_fu_595_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_9_fu_601_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_10_fu_607_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_11_fu_613_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_12_fu_619_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_13_fu_625_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_13" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_14_fu_631_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln10_15_fu_647_p2" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln10_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln6_fu_674_p2" SOURCE="matmul.cpp:6" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln6_fu_680_p3" SOURCE="matmul.cpp:6" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="i_3_fu_688_p3" SOURCE="matmul.cpp:6" STORAGESUBTYPE="" URAM="0" VARIABLE="i_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_fu_735_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_1_fu_802_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_2_fu_849_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_3_fu_894_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_4_fu_961_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln11_5_fu_1031_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln11_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln11_fu_1168_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln14_fu_1041_p2" SOURCE="matmul.cpp:14" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln14" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_1_fu_905_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_2_fu_912_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_3_fu_918_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_4_fu_971_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_5_fu_976_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_6_fu_982_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_7_fu_988_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_8_fu_1045_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_9_fu_1050_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_10_fu_1056_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_11_fu_1062_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_12_fu_1109_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_12" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_13_fu_1114_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_13" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_14_fu_1120_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_14" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_15_fu_1126_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_16_fu_1189_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_16" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_17_fu_1194_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_18_fu_1200_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_18" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_19_fu_1206_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_19" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_9" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_20_fu_1246_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_20" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_21_fu_1251_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_21" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_22_fu_1257_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_22" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_23_fu_1263_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_23" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_11" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_24_fu_1270_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_24" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_25_fu_1275_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_25" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_12" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_26_fu_1281_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_26" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_27_fu_1287_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_27" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U1" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_13" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_28_fu_1298_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_28" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_29_fu_1303_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_29" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln11_14" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="sum_30_fu_1309_p2" SOURCE="matmul.cpp:11" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_30" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="select" PRAGMA="" RTLNAME="sum_31_fu_1315_p3" SOURCE="matmul.cpp:10" STORAGESUBTYPE="" URAM="0" VARIABLE="sum_31" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="j_3_fu_1213_p2" SOURCE="matmul.cpp:7" STORAGESUBTYPE="" URAM="0" VARIABLE="j_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln6_1_fu_1218_p2" SOURCE="matmul.cpp:6" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln6_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln7_fu_1224_p2" SOURCE="matmul.cpp:7" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_6_1_VITIS_LOOP_7_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln6_fu_1230_p2" SOURCE="matmul.cpp:6" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln6" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="in1" index="0" direction="in" srcType="int*" srcSize="32">
+            <hwRefs>
+                <hwRef type="port" interface="in1_address0" name="in1_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="in1_ce0" name="in1_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="in1_q0" name="in1_q0" usage="data" direction="in"/>
+                <hwRef type="port" interface="in1_address1" name="in1_address1" usage="address" direction="out"/>
+                <hwRef type="port" interface="in1_ce1" name="in1_ce1" usage="control" direction="out"/>
+                <hwRef type="port" interface="in1_q1" name="in1_q1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="in2" index="1" direction="in" srcType="int*" srcSize="32">
+            <hwRefs>
+                <hwRef type="port" interface="in2_address0" name="in2_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="in2_ce0" name="in2_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="in2_q0" name="in2_q0" usage="data" direction="in"/>
+                <hwRef type="port" interface="in2_address1" name="in2_address1" usage="address" direction="out"/>
+                <hwRef type="port" interface="in2_ce1" name="in2_ce1" usage="control" direction="out"/>
+                <hwRef type="port" interface="in2_q1" name="in2_q1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out" index="2" direction="out" srcType="int*" srcSize="32">
+            <hwRefs>
+                <hwRef type="port" interface="out_r_address0" name="out_r_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="out_r_ce0" name="out_r_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="out_r_we0" name="out_r_we0" usage="control" direction="out"/>
+                <hwRef type="port" interface="out_r_d0" name="out_r_d0" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="size" index="3" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="port" interface="size" name="size" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_ctrl" type="ap_ctrl" busTypeName="acc_handshake" mode="slave">
+            <portMaps>
+                <portMap portMapName="ap_start">start</portMap>
+                <portMap portMapName="ap_done">done</portMap>
+                <portMap portMapName="ap_idle">idle</portMap>
+                <portMap portMapName="ap_ready">ready</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_done</port>
+                <port>ap_idle</port>
+                <port>ap_ready</port>
+                <port>ap_start</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="in1_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="8">
+            <portMaps>
+                <portMap portMapName="in1_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in1_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in1_q0" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="in1_q0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in1_q0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in1_address1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="8">
+            <portMaps>
+                <portMap portMapName="in1_address1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in1_address1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in1_q1" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="in1_q1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in1_q1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in2_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="8">
+            <portMaps>
+                <portMap portMapName="in2_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in2_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in2_q0" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="in2_q0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in2_q0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in2_address1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="8">
+            <portMaps>
+                <portMap portMapName="in2_address1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in2_address1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in2_q1" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="in2_q1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in2_q1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="in2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_r_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="8">
+            <portMaps>
+                <portMap portMapName="out_r_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out_r_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_r_d0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="out_r_d0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out_r_d0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="size" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="32">
+            <portMaps>
+                <portMap portMapName="size">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>size</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="size"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="AP_MEMORY">
+                <table>
+                    <keys size="3">Port, Direction, Bitwidth</keys>
+                    <column name="in1_address0">out, 8</column>
+                    <column name="in1_address1">out, 8</column>
+                    <column name="in1_q0">in, 32</column>
+                    <column name="in1_q1">in, 32</column>
+                    <column name="in2_address0">out, 8</column>
+                    <column name="in2_address1">out, 8</column>
+                    <column name="in2_q0">in, 32</column>
+                    <column name="in2_q1">in, 32</column>
+                    <column name="out_r_address0">out, 8</column>
+                    <column name="out_r_d0">out, 32</column>
+                </table>
+            </item>
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="size">ap_none, in, 32</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst">reset, ap_rst</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, ap_done ap_idle ap_ready ap_start</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="in1">in, int*</column>
+                    <column name="in2">in, int*</column>
+                    <column name="out">out, int*</column>
+                    <column name="size">in, int</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Usage</keys>
+                    <column name="in1">in1_address0, port, offset</column>
+                    <column name="in1">in1_ce0, port, </column>
+                    <column name="in1">in1_q0, port, </column>
+                    <column name="in1">in1_address1, port, offset</column>
+                    <column name="in1">in1_ce1, port, </column>
+                    <column name="in1">in1_q1, port, </column>
+                    <column name="in2">in2_address0, port, offset</column>
+                    <column name="in2">in2_ce0, port, </column>
+                    <column name="in2">in2_q0, port, </column>
+                    <column name="in2">in2_address1, port, offset</column>
+                    <column name="in2">in2_ce1, port, </column>
+                    <column name="in2">in2_q1, port, </column>
+                    <column name="out">out_r_address0, port, offset</column>
+                    <column name="out">out_r_ce0, port, </column>
+                    <column name="out">out_r_we0, port, </column>
+                    <column name="out">out_r_d0, port, </column>
+                    <column name="size">size, port, </column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="loop_flatten" location="matmul.cpp:6" status="valid" parentFunction="matmul" variable="" isDirective="0" options=" "/>
+    </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="loop_flatten" parentFunction="matmul" options=" " pragmaLocId="matmul.cpp:6:0" pragmaLocOpt="matmul/VITIS_LOOP_6_1" srcPragmaType="pipeline" srcPragmaLoc="matmul.cpp:7" srcPragmaSource="dse-inferred" srcPragmaSourceDesc="pipeline matmul.cpp:7 (Performance Budgeter)" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.loop_flatten=matmul/VITIS_LOOP_6_1  " loopName="VITIS_LOOP_6_1" loopLoc="matmul.cpp:6:18"/>
+        <AutoPragma type="pipeline" parentFunction="matmul" options="" pragmaLocId="matmul.cpp:7:0" pragmaLocOpt="matmul/VITIS_LOOP_7_2" srcTcl="config_compile -pipeline_loops 64" srcIni="syn.compile.pipeline_loops=64" srcPragmaType="" srcPragmaLoc="syn.compile.pipeline_loops=64" srcPragmaSource="config" srcPragmaSourceDesc="syn.compile.pipeline_loops=64" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.pipeline=matmul/VITIS_LOOP_7_2 " loopName="VITIS_LOOP_7_2" loopLoc="matmul.cpp:7:19"/>
+    </AutoPragmaReport>
+</profile>

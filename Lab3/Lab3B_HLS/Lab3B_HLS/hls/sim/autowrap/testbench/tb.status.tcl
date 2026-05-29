@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/nhanenten/Desktop/HW_SW/Lab3/Lab3B_HLS/Lab3B_HLS/hls/./sim/autowrap/testbench/matmul.cpp_pre.cpp.tb.cpp

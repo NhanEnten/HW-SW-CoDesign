@@ -1,0 +1,268 @@
+<ENTRY>
+{
+ "thisFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/Lab3_HLS.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon May 25 14:43:43 2026",
+ "timestampMillis": "1779695023124",
+ "buildStep": {
+  "cmdId": "d1c69b1e-ae6b-4e36-bda4-b764b18cac16",
+  "name": "vitis-run",
+  "logFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/logs/Lab3_HLS.steps.log",
+  "commandLine": "/home/nhanenten/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --impl --config /home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/hls_config.cfg --work_dir Lab3_HLS ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/hls_config.cfg",
+   "--work_dir",
+   "Lab3_HLS"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 14:43:43 2026",
+ "timestampMillis": "1779695023124",
+ "status": {
+  "cmdId": "d1c69b1e-ae6b-4e36-bda4-b764b18cac16",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024985",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matmul",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/matmul.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024985",
+ "buildStep": {
+  "cmdId": "8f11220d-9269-4fb4-ab7c-d8c87ddfe738",
+  "name": "",
+  "logFile": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024985",
+ "status": {
+  "cmdId": "8f11220d-9269-4fb4-ab7c-d8c87ddfe738",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/report/verilog/export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/report/verilog/export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/report/verilog/export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:43:44 2026",
+ "timestampMillis": "1779695024986",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls/impl/report/verilog/export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121506",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121507",
+ "report": {
+  "path": "/home/nhanenten/Desktop/HW_SW/Lab3/Lab3_HLS/Lab3_HLS/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121507",
+ "status": {
+  "cmdId": "8f11220d-9269-4fb4-ab7c-d8c87ddfe738",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121576",
+ "status": {
+  "cmdId": "d1c69b1e-ae6b-4e36-bda4-b764b18cac16",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121576",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon May 25 14:45:21 2026",
+ "timestampMillis": "1779695121577",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

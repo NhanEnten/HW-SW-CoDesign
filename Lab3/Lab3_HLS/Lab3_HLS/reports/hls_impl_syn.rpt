@@ -1,0 +1,210 @@
+================================================================
+== Vivado RTL Synthesis Results
+================================================================
++ General Information:
+    * Date:            Mon May 25 14:45:21 +07 2026
+    * Version:         2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:         Lab3_HLS
+    * Solution:        hls (Vivado IP Flow Target)
+    * Product family:  zynq
+    * Target device:   xc7z010-clg400-1
+
+
+================================================================
+== Run Constraints & Options
+================================================================
++ Design Constraints & Options:
+    * RTL Synthesis target clock:  10 ns
+    * C-Synthesis target clock:    10 ns
+    * C-Synthesis uncertainty:     27%
+
++ RTL Synthesis Options:
+    * config_export -vivado_synth_strategy:     default
+    * config_export -vivado_synth_design_args:  -directive sdx_optimization_effort_high
+
++ Reporting Options:
+    * config_export -vivado_report_level:      2
+    * config_export -vivado_max_timing_paths:  10
+
+
+================================================================
+== RTL Synthesis Resource Summary
+================================================================
+LUT:              842
+FF:               411
+DSP:              6
+BRAM:             0
+URAM:             0
+SRL:              0
+
+
+================================================================
+== RTL Synthesis Timing Summary
+================================================================
+* Timing was met
++----------------+-------------+
+| Timing         | Period (ns) |
++----------------+-------------+
+| Target         | 10.000      |
+| Post-Synthesis | 3.826       |
++----------------+-------------+
+
+
+================================================================
+== RTL Synthesis Resources
+================================================================
++----------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name                       | LUT | FF | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++----------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst                       |     |    |     |      |      |     |        |      |         |          |        |
+|   (inst)                   |     |    |     |      |      |     |        |      |         |          |        |
+|   flow_control_loop_pipe_U |     |    |     |      |      |     |        |      |         |          |        |
+|   mul_32s_32s_32_2_1_U1    |     |    |     |      |      |     |        |      |         |          |        |
+|   mul_32s_32s_32_2_1_U2    |     |    |     |      |      |     |        |      |         |          |        |
++----------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+
+
+================================================================
+== RTL Synthesis Fail Fast
+================================================================
++-----------------------------------------------------------+-----------+--------+--------+
+| Criteria                                                  | Guideline | Actual | Status |
++-----------------------------------------------------------+-----------+--------+--------+
+| LUT                                                       | 70%       | 4.78%  | OK     |
+| FD                                                        | 50%       | 1.17%  | OK     |
+| LUTRAM+SRL                                                | 25%       | 0.00%  | OK     |
+| MUXF7                                                     | 15%       | 0.00%  | OK     |
+| DSP                                                       | 80%       | 7.50%  | OK     |
+| RAMB/FIFO                                                 | 80%       | 0.00%  | OK     |
+| DSP+RAMB+URAM (Avg)                                       | 70%       | 7.50%  | OK     |
+| BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+| Control Sets                                              | 330       | 13     | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 2.36   | OK     |
+| Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
+| Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+| TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+| TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+| TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+| TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| Number of paths above max LUT budgeting (0.575ns)         | 0         | 0      | OK     |
+| Number of paths above max Net budgeting (0.403ns)         | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+
+
+================================================================
+== RTL Synthesis Timing Paths
+================================================================
+* Timing was met
++-------+-------+--------------------------------+---------------------------+--------------+------------+----------------+----------------+--------------+
+| Path  | SLACK | STARTPOINT PIN                 | ENDPOINT PIN              | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|       |       |                                |                           |              |            |                |          DELAY |        DELAY |
++-------+-------+--------------------------------+---------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1 | 6.174 | icmp_ln10_4_reg_1364_reg[0]/C  | sum_11_reg_1637_reg[29]/D |            9 |         63 |          3.851 |          2.372 |        1.479 |
+| Path2 | 6.174 | icmp_ln10_6_reg_1374_reg[0]/C  | sum_15_reg_1663_reg[29]/D |            9 |         63 |          3.851 |          2.372 |        1.479 |
+| Path3 | 6.174 | icmp_ln10_8_reg_1384_reg[0]/C  | sum_19_reg_1689_reg[29]/D |            9 |         63 |          3.851 |          2.372 |        1.479 |
+| Path4 | 6.174 | icmp_ln10_10_reg_1394_reg[0]/C | sum_23_reg_1704_reg[29]/D |            9 |         63 |          3.851 |          2.372 |        1.479 |
+| Path5 | 6.174 | icmp_ln10_2_reg_1354_reg[0]/C  | sum_7_reg_1606_reg[29]/D  |            9 |         63 |          3.851 |          2.372 |        1.479 |
++-------+-------+--------------------------------+---------------------------+--------------+------------+----------------+----------------+--------------+
+
+    +-----------------------------+----------------------+
+    | Path1 Cells                 | Primitive Type       |
+    +-----------------------------+----------------------+
+    | icmp_ln10_4_reg_1364_reg[0] | FLOP_LATCH.flop.FDRE |
+    | sum_11_reg_1637[3]_i_4      | LUT.others.LUT5      |
+    | sum_11_reg_1637_reg[3]_i_1  | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[7]_i_1  | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[11]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[15]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[19]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[23]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[27]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[31]_i_1 | CARRY.others.CARRY4  |
+    | sum_11_reg_1637_reg[29]     | FLOP_LATCH.flop.FDRE |
+    +-----------------------------+----------------------+
+
+    +-----------------------------+----------------------+
+    | Path2 Cells                 | Primitive Type       |
+    +-----------------------------+----------------------+
+    | icmp_ln10_6_reg_1374_reg[0] | FLOP_LATCH.flop.FDRE |
+    | sum_15_reg_1663[3]_i_4      | LUT.others.LUT5      |
+    | sum_15_reg_1663_reg[3]_i_1  | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[7]_i_1  | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[11]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[15]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[19]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[23]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[27]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[31]_i_1 | CARRY.others.CARRY4  |
+    | sum_15_reg_1663_reg[29]     | FLOP_LATCH.flop.FDRE |
+    +-----------------------------+----------------------+
+
+    +-----------------------------+----------------------+
+    | Path3 Cells                 | Primitive Type       |
+    +-----------------------------+----------------------+
+    | icmp_ln10_8_reg_1384_reg[0] | FLOP_LATCH.flop.FDRE |
+    | sum_19_reg_1689[3]_i_4      | LUT.others.LUT5      |
+    | sum_19_reg_1689_reg[3]_i_1  | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[7]_i_1  | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[11]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[15]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[19]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[23]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[27]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[31]_i_1 | CARRY.others.CARRY4  |
+    | sum_19_reg_1689_reg[29]     | FLOP_LATCH.flop.FDRE |
+    +-----------------------------+----------------------+
+
+    +------------------------------+----------------------+
+    | Path4 Cells                  | Primitive Type       |
+    +------------------------------+----------------------+
+    | icmp_ln10_10_reg_1394_reg[0] | FLOP_LATCH.flop.FDRE |
+    | sum_23_reg_1704[3]_i_4       | LUT.others.LUT5      |
+    | sum_23_reg_1704_reg[3]_i_1   | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[7]_i_1   | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[11]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[15]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[19]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[23]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[27]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[31]_i_1  | CARRY.others.CARRY4  |
+    | sum_23_reg_1704_reg[29]      | FLOP_LATCH.flop.FDRE |
+    +------------------------------+----------------------+
+
+    +-----------------------------+----------------------+
+    | Path5 Cells                 | Primitive Type       |
+    +-----------------------------+----------------------+
+    | icmp_ln10_2_reg_1354_reg[0] | FLOP_LATCH.flop.FDRE |
+    | sum_7_reg_1606[3]_i_4       | LUT.others.LUT5      |
+    | sum_7_reg_1606_reg[3]_i_1   | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[7]_i_1   | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[11]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[15]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[19]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[23]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[27]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[31]_i_1  | CARRY.others.CARRY4  |
+    | sum_7_reg_1606_reg[29]      | FLOP_LATCH.flop.FDRE |
+    +-----------------------------+----------------------+
+
+
+================================================================
+== RTL Synthesis Vivado Reports
+================================================================
++--------------------------+---------------------------------------------------------------+
+| Report Type              | Report Location                                               |
++--------------------------+---------------------------------------------------------------+
+| design_analysis          | impl/verilog/report/matmul_design_analysis_synth.rpt          |
+| failfast                 | impl/verilog/report/matmul_failfast_synth.rpt                 |
+| power                    | impl/verilog/report/matmul_power_synth.rpt                    |
+| timing                   | impl/verilog/report/matmul_timing_synth.rpt                   |
+| timing_paths             | impl/verilog/report/matmul_timing_paths_synth.rpt             |
+| utilization              | impl/verilog/report/matmul_utilization_synth.rpt              |
+| utilization_hierarchical | impl/verilog/report/matmul_utilization_hierarchical_synth.rpt |
++--------------------------+---------------------------------------------------------------+
+
+

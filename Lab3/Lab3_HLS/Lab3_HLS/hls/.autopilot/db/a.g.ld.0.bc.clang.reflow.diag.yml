@@ -1,0 +1,68 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_matmul_ir
+Args:            
+  - Callee:          'matmul(int (*) [16], int (*) [16], int (*) [16], int)'
+    DebugLoc:        { File: matmul.cpp, Line: 4, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_matmul_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_7_2
+  - String:          '> at '
+  - LoopLoc:         'matmul.cpp:7:19'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: matmul.cpp, Line: 7, Column: 19 }
+Function:        _Z6matmulPA16_iS0_S0_i
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  matmul
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_7_2
+  - String:          ' '
+  - LoopLoc:         'matmul.cpp:7:19'
+    DebugLoc:        { File: matmul.cpp, Line: 7, Column: 19 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: matmul.cpp, Line: 9, Column: 20 }
+Function:        _Z6matmulPA16_iS0_S0_i
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_9_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: matmul.cpp, Line: 4, Column: 0 }
+Function:        _Z6matmulPA16_iS0_S0_i
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_9_3
+  - String:          ''' ('
+  - LoopLoc:         'matmul.cpp:9:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          matmul
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
